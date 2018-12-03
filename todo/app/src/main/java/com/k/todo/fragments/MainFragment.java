@@ -11,6 +11,10 @@ import com.k.todo.base.BaseFragment;
 
 public class MainFragment extends BaseFragment {
 
+    public static MainFragment instance() {
+        return new MainFragment();
+    }
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
