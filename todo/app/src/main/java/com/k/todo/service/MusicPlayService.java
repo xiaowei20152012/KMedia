@@ -309,7 +309,7 @@ public class MusicPlayService extends Service {
         return musicBinder;
     }
 
-    private class MusicBinder extends Binder {
+    public class MusicBinder extends Binder {
         MusicPlayService getMusicService() {
             return MusicPlayService.this;
         }
@@ -347,11 +347,15 @@ public class MusicPlayService extends Service {
     }
 
     private void playSongAt(int position) {
-
+        playSongAtImpl(position);
     }
 
     private void playSongAtImpl(int position) {
+        if (openTrackAndPrepareNextAt(position)) {
+            play();
+        } else {
 
+        }
     }
 
     private boolean openTrackAndPrepareNextAt(int position) {
