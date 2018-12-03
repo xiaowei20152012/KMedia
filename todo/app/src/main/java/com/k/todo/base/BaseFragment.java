@@ -1,6 +1,7 @@
 package com.k.todo.base;
 
 
+import android.content.Context;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -25,6 +26,7 @@ public class BaseFragment extends Fragment implements DataProvider, DataSourceLi
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getMusicProvider().registerDataSourceListener(this);
     }
 
     @Override
@@ -40,11 +42,28 @@ public class BaseFragment extends Fragment implements DataProvider, DataSourceLi
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
+        getMusicProvider().loadData();
+    }
+
+    @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+    }
+
+    @Override
+    public void onDetach() {
+        super.onDetach();
     }
 
     @Override
     public void onDestroyView() {
         super.onDestroyView();
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        getMusicProvider().unregisterDataSourceListener(this);
     }
 
     @Override
@@ -65,23 +84,22 @@ public class BaseFragment extends Fragment implements DataProvider, DataSourceLi
 
     @Override
     public MusicProvider getMusicProvider() {
+        MusicProvider provider = null;
         if (getActivity() != null && getActivity() instanceof DataProvider) {
-            return ((DataProvider) getActivity()).getMusicProvider();
+            provider = ((DataProvider) getActivity()).getMusicProvider();
         }
-        return MusicProvider.create();
+        return provider == null ? MusicProvider.create() : provider;
     }
 
     @Override
     public void onResume() {
         super.onResume();
-        getMusicProvider().registerDataSourceListener(this);
-        getMusicProvider().loadData();
+
     }
 
     @Override
     public void onPause() {
         super.onPause();
-        getMusicProvider().unregisterDataSourceListener(this);
     }
 
     @Override

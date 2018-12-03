@@ -16,11 +16,11 @@ public class MusicProvider implements DataSourceListener {
         return provider;
     }
 
-    private WeakReference<ArrayList<DataSourceListener>> listenerList;
+    private ArrayList<DataSourceListener> listenerList;
     private MusicCache musicCache;
 
     public MusicProvider() {
-        listenerList = new WeakReference<ArrayList<DataSourceListener>>(new ArrayList<DataSourceListener>());
+        listenerList =new ArrayList<DataSourceListener>();
         musicCache = MusicCache.create(this);
     }
 
@@ -33,7 +33,7 @@ public class MusicProvider implements DataSourceListener {
     }
 
     public void registerDataSourceListener(DataSourceListener dataSourceListener) {
-        ArrayList<DataSourceListener> listeners = listenerList.get();
+        ArrayList<DataSourceListener> listeners = listenerList;
         if (listeners == null || dataSourceListener == null) {
             return;
         }
@@ -42,8 +42,8 @@ public class MusicProvider implements DataSourceListener {
     }
 
     public void unregisterDataSourceListener(DataSourceListener dataSourceListener) {
-        ArrayList<DataSourceListener> listeners = listenerList.get();
-        if (listeners == null || dataSourceListener == null) {
+        ArrayList<DataSourceListener> listeners = listenerList;
+        if (dataSourceListener == null) {
             return;
         }
         listeners.remove(dataSourceListener);
@@ -52,7 +52,7 @@ public class MusicProvider implements DataSourceListener {
 
     @Override
     public void onLoaded(Object datas) {
-        ArrayList<DataSourceListener> listeners = listenerList.get();
+        ArrayList<DataSourceListener> listeners = listenerList;
         if (listeners == null) {
             return;
         }
@@ -63,7 +63,7 @@ public class MusicProvider implements DataSourceListener {
 
     @Override
     public void onLoadError(Object error) {
-        ArrayList<DataSourceListener> listeners = listenerList.get();
+        ArrayList<DataSourceListener> listeners = listenerList;
         if (listeners == null) {
             return;
         }
@@ -74,7 +74,7 @@ public class MusicProvider implements DataSourceListener {
 
     @Override
     public void onDataChanged(Object datas) {
-        ArrayList<DataSourceListener> listeners = listenerList.get();
+        ArrayList<DataSourceListener> listeners = listenerList;
         if (listeners == null) {
             return;
         }
@@ -85,7 +85,7 @@ public class MusicProvider implements DataSourceListener {
 
     @Override
     public void onLoading() {
-        ArrayList<DataSourceListener> listeners = listenerList.get();
+        ArrayList<DataSourceListener> listeners = listenerList;
         if (listeners == null) {
             return;
         }
