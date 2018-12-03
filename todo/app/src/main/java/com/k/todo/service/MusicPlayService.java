@@ -45,11 +45,23 @@ public class MusicPlayService extends Service {
     public static final String ACTION_REWIND = PACKAGE_NAME + ".rewind";
     public static final String ACTION_QUIT = PACKAGE_NAME + ".quitservice";
 
+    public static final int RELEASE_WAKELOCK = 0;
+    public static final int TRACK_ENDED = 1;
+    public static final int TRACK_WENT_TO_NEXT = 2;
+    public static final int PLAY_SONG = 3;
+    public static final int PREPARE_NEXT = 4;
+    public static final int SET_POSITION = 5;
+    private static final int FOCUS_CHANGE = 6;
+    private static final int DUCK = 7;
+    private static final int UNDUCK = 8;
+    public static final int RESTORE_QUEUES = 9;
+
+
     private IBinder musicBinder = new MusicBinder();
     private PowerManager.WakeLock wakeLock;
     private HandlerThread musicPlayerHandlerThread;
     private PlayerHandler playerHandler;
-    private MPlayer player;
+    public MPlayer player;
     private MediaSessionCompat mediaSession;
     private AudioManager audioManager;
     private final AudioManager.OnAudioFocusChangeListener audioFocusListener = new AudioManager.OnAudioFocusChangeListener() {
@@ -168,12 +180,114 @@ public class MusicPlayService extends Service {
         @Override
         public void handleMessage(Message msg) {
             final MusicPlayService musicPlayService = service.get();
-            if (service == null) {
+            if (musicPlayService == null) {
                 return;
             }
 
             switch (msg.what) {
-//                case
+                case DUCK:
+//                    if (PreferenceUtil.getInstance(service).audioDucking()) {
+                    currentDuckVolume -= .05f;
+                    if (currentDuckVolume > .2f) {
+                        sendEmptyMessageDelayed(DUCK, 10);
+                    } else {
+                        currentDuckVolume = .2f;
+                    }
+//                    } else {
+//                        currentDuckVolume = 1f;
+//                    }
+                    musicPlayService.player.setVolume(currentDuckVolume);
+                    break;
+
+                case UNDUCK:
+//                    if (PreferenceUtil.getInstance(service).audioDucking()) {
+                    currentDuckVolume += .03f;
+                    if (currentDuckVolume < 1f) {
+                        sendEmptyMessageDelayed(UNDUCK, 10);
+                    } else {
+                        currentDuckVolume = 1f;
+                    }
+//                    } else {
+//                        currentDuckVolume = 1f;
+//                    }
+                    musicPlayService.player.setVolume(currentDuckVolume);
+                    break;
+
+                case TRACK_WENT_TO_NEXT:
+//                    if (service.getRepeatMode() == REPEAT_MODE_NONE && service.isLastTrack()) {
+//                        service.pause();
+//                        service.seek(0);
+//                    } else {
+//                        service.position = service.nextPosition;
+//                        service.prepareNextImpl();
+//                        service.notifyChange(META_CHANGED);
+//                    }
+                    break;
+
+                case TRACK_ENDED:
+//                    if (service.getRepeatMode() == REPEAT_MODE_NONE && service.isLastTrack()) {
+//                        service.notifyChange(PLAY_STATE_CHANGED);
+//                        service.seek(0);
+//                    } else {
+//                        service.playNextSong(false);
+//                    }
+//                    sendEmptyMessage(RELEASE_WAKELOCK);
+                    break;
+
+                case RELEASE_WAKELOCK:
+//                    service.releaseWakeLock();
+                    break;
+
+                case PLAY_SONG:
+//                    service.playSongAtImpl(msg.arg1);
+                    break;
+
+                case SET_POSITION:
+//                    service.openTrackAndPrepareNextAt(msg.arg1);
+//                    service.notifyChange(PLAY_STATE_CHANGED);
+                    break;
+
+                case PREPARE_NEXT:
+//                    service.prepareNextImpl();
+                    break;
+
+                case RESTORE_QUEUES:
+//                    service.restoreQueuesAndPositionIfNecessary();
+                    break;
+
+                case FOCUS_CHANGE:
+                    switch (msg.arg1) {
+                        case AudioManager.AUDIOFOCUS_GAIN:
+//                            if (!musicPlayService.isPlaying() && musicPlayService.pausedByTransientLossOfFocus) {
+//                                musicPlayService.play();
+//                                musicPlayService.pausedByTransientLossOfFocus = false;
+//                            }
+//                            removeMessages(DUCK);
+//                            sendEmptyMessage(UNDUCK);
+                            break;
+
+                        case AudioManager.AUDIOFOCUS_LOSS:
+                            // Lost focus for an unbounded amount of time: stop playback and release media playback
+                            musicPlayService.pause();
+                            break;
+
+                        case AudioManager.AUDIOFOCUS_LOSS_TRANSIENT:
+                            // Lost focus for a short time, but we have to stop
+                            // playback. We don't release the media playback because playback
+                            // is likely to resume
+                            boolean wasPlaying = musicPlayService.player.isPlaying();
+                            musicPlayService.pause();
+//                            musicPlayService.pausedByTransientLossOfFocus = wasPlaying;
+                            break;
+
+                        case AudioManager.AUDIOFOCUS_LOSS_TRANSIENT_CAN_DUCK:
+                            // Lost focus for a short time, but it's ok to keep playing
+                            // at an attenuated level
+                            removeMessages(UNDUCK);
+                            sendEmptyMessage(DUCK);
+                            break;
+                    }
+                    break;
             }
         }
     }
