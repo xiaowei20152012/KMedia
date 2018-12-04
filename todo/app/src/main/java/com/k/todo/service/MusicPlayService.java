@@ -33,6 +33,7 @@ import com.k.todo.service.music.MusicUtil;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
+import java.util.List;
 
 public class MusicPlayService extends Service {
     public static final String PACKAGE_NAME = "com.k.todo";
@@ -44,6 +45,15 @@ public class MusicPlayService extends Service {
     public static final String ACTION_SKIP = PACKAGE_NAME + ".skip";
     public static final String ACTION_REWIND = PACKAGE_NAME + ".rewind";
     public static final String ACTION_QUIT = PACKAGE_NAME + ".quitservice";
+
+    // do not change these three strings as it will break support with other apps (e.g. last.fm scrobbling)
+    public static final String META_CHANGED = PACKAGE_NAME + ".metachanged";
+    public static final String QUEUE_CHANGED = PACKAGE_NAME + ".queuechanged";
+    public static final String PLAY_STATE_CHANGED = PACKAGE_NAME + ".playstatechanged";
+
+    public static final String REPEAT_MODE_CHANGED = PACKAGE_NAME + ".repeatmodechanged";
+    public static final String SHUFFLE_MODE_CHANGED = PACKAGE_NAME + ".shufflemodechanged";
+    public static final String MEDIA_STORE_CHANGED = PACKAGE_NAME + ".mediastorechanged";
 
     public static final int RELEASE_WAKELOCK = 0;
     public static final int TRACK_ENDED = 1;
@@ -150,6 +160,7 @@ public class MusicPlayService extends Service {
 
         mediaSession.setMediaButtonReceiver(mediaButtonReceiverPendingIntent);
     }
+
 
     private static final class MediaStoreObserver extends ContentObserver {
 
@@ -425,5 +436,83 @@ public class MusicPlayService extends Service {
             return next;
         }
         return position;
+    }
+
+
+    public void playNextSong(boolean b) {
+        play();
+    }
+
+    public void openQueue(@Nullable final ArrayList<Song> playingQueue, final int startPosition, final boolean startPlaying) {
+//        if (playingQueue != null && !playingQueue.isEmpty() && startPosition >= 0 && startPosition < playingQueue.size()) {
+        // it is important to copy the playing queue here first as we might add/remove songs later
+        originalPlayingQueue = new ArrayList<>(playingQueue);
+        this.playingQueue = new ArrayList<>(originalPlayingQueue);
+
+        int position = startPosition;
+//            if (shuffleMode == SHUFFLE_MODE_SHUFFLE) {
+//                ShuffleHelper.makeShuffleList(this.playingQueue, startPosition);
+//                position = 0;
+//            }
+//            if (startPlaying) {
+//                playSongAt(position);
+//            } else {
+//                setPosition(position);
+//            }
+//            notifyChange(QUEUE_CHANGED);
+//        playSongAt(position);
+//        }
+    }
+
+    public void addSong(int position, Song song) {
+        playingQueue.add(position, song);
+        originalPlayingQueue.add(position, song);
+//        notifyChange(QUEUE_CHANGED);
+    }
+
+    public void addSong(Song song) {
+        playingQueue.add(song);
+        originalPlayingQueue.add(song);
+//        notifyChange(QUEUE_CHANGED);
+    }
+
+    public void addSongs(int position, List<Song> songs) {
+        playingQueue.addAll(position, songs);
+        originalPlayingQueue.addAll(position, songs);
+//        notifyChange(QUEUE_CHANGED);
+    }
+
+    public void addSongs(List<Song> songs) {
+        playingQueue.addAll(songs);
+        originalPlayingQueue.addAll(songs);
+//        notifyChange(QUEUE_CHANGED);
+    }
+
+    public void removeSong(int position) {
+//        if (getShuffleMode() == SHUFFLE_MODE_NONE) {
+//            playingQueue.remove(position);
+//            originalPlayingQueue.remove(position);
+//        } else {
+//            originalPlayingQueue.remove(playingQueue.remove(position));
+//        }
+
+//        rePosition(position);
+
+//        notifyChange(QUEUE_CHANGED);
+    }
+
+    public void removeSong(@NonNull Song song) {
+        for (int i = 0; i < playingQueue.size(); i++) {
+            if (playingQueue.get(i).id == song.id) {
+                playingQueue.remove(i);
+//                rePosition(i);
+            }
+        }
+        for (int i = 0; i < originalPlayingQueue.size(); i++) {
+            if (originalPlayingQueue.get(i).id == song.id) {
+                originalPlayingQueue.remove(i);
+            }
+        }
+//        notifyChange(QUEUE_CHANGED);
     }
 }

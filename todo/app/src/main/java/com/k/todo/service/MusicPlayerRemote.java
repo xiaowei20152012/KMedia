@@ -128,7 +128,7 @@ public class MusicPlayerRemote {
      */
     public static void playNextSong() {
         if (musicService != null) {
-//            musicService.playNextSong(true);
+            musicService.playNextSong(true);
         }
     }
 
@@ -166,7 +166,7 @@ public class MusicPlayerRemote {
      */
     public static void openQueue(final ArrayList<Song> queue, final int startPosition, final boolean startPlaying) {
         if (!tryToHandleOpenPlayingQueue(queue, startPosition, startPlaying) && musicService != null) {
-//            musicService.openQueue(queue, startPosition, startPlaying);
+            musicService.openQueue(queue, startPosition, startPlaying);
         }
     }
 
@@ -304,7 +304,7 @@ public class MusicPlayerRemote {
     public static boolean playNext(@NonNull ArrayList<Song> songs) {
         if (musicService != null) {
             if (getPlayingQueue().size() > 0) {
-//                musicService.addSongs(getPosition() + 1, songs);
+                musicService.addSongs(getPosition() + 1, songs);
             } else {
                 openQueue(songs, 0, false);
             }

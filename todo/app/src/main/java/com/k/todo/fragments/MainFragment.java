@@ -11,8 +11,10 @@ import android.view.ViewGroup;
 
 import com.k.todo.R;
 import com.k.todo.base.BaseFragment;
+import com.k.todo.base.OnItemClickListener;
 import com.k.todo.fragments.main.MainAdapter;
 import com.k.todo.model.Song;
+import com.k.todo.service.MusicPlayerRemote;
 
 import java.util.ArrayList;
 
@@ -42,6 +44,14 @@ public class MainFragment extends BaseFragment {
         adapter = new MainAdapter();
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
         recyclerView.setAdapter(adapter);
+        adapter.setOnItemClickListener(new OnItemClickListener() {
+            @Override
+            public void onItemClick(View itemView, int position, Object object) {
+//                MusicPlayerRemote.playNext()
+//                MusicPlayerRemote.playNext((Song) object);
+                MusicPlayerRemote.playNextSong();
+            }
+        });
     }
 
     @Override
@@ -51,6 +61,7 @@ public class MainFragment extends BaseFragment {
             adapter.setAdapter(((ArrayList) datas));
             adapter.notifyDataSetChanged();
         }
+        MusicPlayerRemote.openQueue((ArrayList<Song>) datas, 0, false);
     }
 
     @Override

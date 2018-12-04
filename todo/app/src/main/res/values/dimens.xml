@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="music_bottom_height">48dp</dimen>
+
+    <dimen name="music_iv_item_height">40dp</dimen>
+    <dimen name="music_iv_item_weight">40dp</dimen>
+    <dimen name="music_tx_title_size">16sp</dimen>
+    <dimen name="music_tx_dec_size">13sp</dimen>
+
 </resources>
