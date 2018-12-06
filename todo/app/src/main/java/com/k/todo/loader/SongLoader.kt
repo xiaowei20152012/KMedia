@@ -12,6 +12,9 @@ import com.k.todo.model.Song
 import java.util.ArrayList
 
 object SongLoader {
+
+
+
     val BASE_SELECTION = AudioColumns.IS_MUSIC + "=1" + " AND " + AudioColumns.TITLE + " != ''"
     val BASE_PROJECTION = arrayOf(BaseColumns._ID, // 0
             AudioColumns.TITLE, // 1
