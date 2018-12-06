@@ -3,6 +3,8 @@ package com.k.todo;
 import android.app.Application;
 import android.content.res.Configuration;
 import android.os.AsyncTask;
+import com.crashlytics.android.Crashlytics;
+import io.fabric.sdk.android.Fabric;
 
 
 public class App extends Application {
@@ -24,7 +26,8 @@ public class App extends Application {
     }
 
     private void initProgress() {
-
+        //firebase crash
+        Fabric.with(this, new Crashlytics());
     }
 
     @Override

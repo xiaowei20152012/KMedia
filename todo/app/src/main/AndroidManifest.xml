@@ -32,6 +32,9 @@
         <service
             android:name=".service.MusicPlayService"
             android:enabled="true" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="945b07052fbe2cd486e31e54f4f32f89b032de06" />
     </application>
 
 </manifest>
