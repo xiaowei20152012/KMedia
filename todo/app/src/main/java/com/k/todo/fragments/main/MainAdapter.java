@@ -67,7 +67,7 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.InnerHolder> {
 
         public void bindData(Song song) {
             this.song = song;
-            titleView.setText(song.title);
+            titleView.setText(song.getTitle());
         }
     }
 }
