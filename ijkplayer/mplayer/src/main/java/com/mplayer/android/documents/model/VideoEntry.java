@@ -13,7 +13,7 @@ import java.util.ArrayList;
 
 
 public class VideoEntry extends DocumentEntry {
-    public static VideoEntry EMPTY = new VideoEntry(-1, "", "", -1, -1, "", -1, "", "", -1, "", "", "", -1, "", "", "", "")
+    public static VideoEntry EMPTY = new VideoEntry(-1, "", "", -1, -1, "", -1, "", "", -1, "", "", "", -1, "", "", "", "");
 
     protected static final String VIDEO_BASE_SELECTION = VideoColumns.TITLE + " != ''";
     protected static final String[] VIDEO_BASE_PROJECTION = new String[]{
@@ -81,23 +81,23 @@ public class VideoEntry extends DocumentEntry {
         this.album = album;
         this.artist = artist;
     }
-    @NonNull
-    public static ArrayList<VideoEntry> getAllSongs(@NonNull Context context) {
-        Cursor cursor = makeSongCursor(context, null, null);
-        return getSongs(cursor);
-    }
-
-    @NonNull
-    public static ArrayList<VideoEntry> getSongs(@NonNull final Context context, final String query) {
-        Cursor cursor = makeSongCursor(context, MediaStore.Audio.AudioColumns.TITLE + " LIKE ?", new String[]{"%" + query + "%"});
-        return getSongs(cursor);
-    }
-
-    @NonNull
-    public static VideoEntry getSong(@NonNull final Context context, final int queryId) {
-        Cursor cursor = makeSongCursor(context, MediaStore.Audio.AudioColumns._ID + "=?", new String[]{String.valueOf(queryId)});
-        return getSong(cursor);
-    }
+//    @NonNull
+//    public static ArrayList<VideoEntry> getAllSongs(@NonNull Context context) {
+//        Cursor cursor = makeVideoCursor(context, null, null);
+//        return getSongs(cursor);
+//    }
+//
+//    @NonNull
+//    public static ArrayList<VideoEntry> getSongs(@NonNull final Context context, final String query) {
+//        Cursor cursor = makeVideoCursor(context, MediaStore.Video.VideoColumns.TITLE + " LIKE ?", new String[]{"%" + query + "%"});
+//        return getSongs(cursor);
+//    }
+//
+//    @NonNull
+//    public static VideoEntry getSong(@NonNull final Context context, final int queryId) {
+//        Cursor cursor = makeVideoCursor(context, MediaStore.Video.VideoColumns._ID + "=?", new String[]{String.valueOf(queryId)});
+//        return getSong(cursor);
+//    }
     @NonNull
     public static VideoEntry getVideo(@Nullable Cursor cursor) {
         VideoEntry video;
