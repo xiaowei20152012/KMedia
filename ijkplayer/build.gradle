@@ -3,9 +3,10 @@
 buildscript {
     repositories {
         jcenter()
+        google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.1.3'
+        classpath 'com.android.tools.build:gradle:3.0.0'
 
         classpath 'com.github.dcendents:android-maven-gradle-plugin:1.4.1'
         classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7'
@@ -17,19 +18,32 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
+        google()
     }
 }
 
 ext {
-    compileSdkVersion = 25
-    buildToolsVersion = "25.0.3"
+    compileSdkVersion = 26
+    buildToolsVersion = "26.0.2"
 
-    targetSdkVersion = 25
+    targetSdkVersion = 26
 
     versionCode = 800800
     versionName = "0.8.8"
 }
 
 wrapper {
-    gradleVersion = '2.14.1'
+    gradleVersion = '3.0.0'
 }
+
+
+//configurations.all {
+//    resolutionStrategy.eachDependency {
+//        DependencyResolveDetails details ->
+//            def requested = details.requestedif(requested.group == 'com.android.support') {
+//                if (!requested.name.startsWith("multidex")) {
+//                    details.useVersion '26.1.0'
+//                } //这里改为你项目使用的版本即可           
+//            }
+//    }
+//}
