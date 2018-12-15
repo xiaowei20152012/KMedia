@@ -9,14 +9,16 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.mplayer.android.R;
+import com.mplayer.android.VideoActivity;
 import com.mplayer.android.documents.model.VideoEntry;
 import com.mplayer.android.exceptions.VideoException;
+import com.mplayer.android.interfaces.OnItemClickListener;
 
 import java.util.ArrayList;
 import java.util.List;
 
 
-public class VideosFragment extends VideosBaseFragment {
+public class VideosFragment extends VideosBaseFragment implements OnItemClickListener {
     private static VideosFragment instance;
 
     public static VideosFragment instance() {
@@ -45,6 +47,7 @@ public class VideosFragment extends VideosBaseFragment {
         showLoading();
         recyclerView = view.findViewById(R.id.recycler_view);
         videosAdapter = new VideosAdapter();
+        videosAdapter.setOnItemClickListener(this);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         recyclerView.setAdapter(videosAdapter);
         videoList = new ArrayList<>(1);
@@ -86,6 +89,14 @@ public class VideosFragment extends VideosBaseFragment {
             videoList.clear();
             videoList.addAll(newVideos);
             videosAdapter.setList(videoList);
+        }
+    }
+
+    @Override
+    public void onClick(Object item) {
+        if (item instanceof VideoEntry) {
+            VideoEntry entry = (VideoEntry) item;
+            VideoActivity.start(getActivity(), entry.uri.toString(), entry.title);
         }
     }
 }

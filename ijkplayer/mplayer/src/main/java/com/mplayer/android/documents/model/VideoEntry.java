@@ -1,8 +1,10 @@
 package com.mplayer.android.documents.model;
 
 
+import android.content.ContentUris;
 import android.content.Context;
 import android.database.Cursor;
+import android.net.Uri;
 import android.provider.BaseColumns;
 import android.provider.MediaStore;
 import android.provider.MediaStore.Video.VideoColumns;
@@ -57,6 +59,7 @@ public class VideoEntry extends DocumentEntry {
     public String tags;
     public String album;
     public String artist;
+    public Uri uri;
 
     public VideoEntry(int id, String title, String data, int dateTaken, int dateModified, String description,
                       int duration, String category,
@@ -80,6 +83,7 @@ public class VideoEntry extends DocumentEntry {
         this.tags = tags;
         this.album = album;
         this.artist = artist;
+        this.uri = ContentUris.withAppendedId(MediaStore.Video.Media.EXTERNAL_CONTENT_URI, id);
     }
 
     @NonNull

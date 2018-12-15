@@ -31,9 +31,18 @@ public class VideoStorageProvider {
 
     private ArrayList<VideoProviderListener> listeners;
 
+//    private FileObserver fileObserver;
+
     public VideoStorageProvider() {
         listeners = new ArrayList<>(1);
         this.handler = new Handler(Looper.getMainLooper());
+        videoCacheEntrys = new ArrayList<>(1);
+//        fileObserver = new FileObserver() {
+//            @Override
+//            public void onEvent(int event, @Nullable String path) {
+//
+//            }
+//        }
     }
 
     public void registerVideoProviderListener(VideoProviderListener providerListener) {
@@ -58,8 +67,12 @@ public class VideoStorageProvider {
 
     public void release() {
         listeners.clear();
+        handler.removeCallbacksAndMessages(null);
     }
 
+    public List<VideoEntry> getVideos() {
+        return videoCacheEntrys;
+    }
 
     private void onLoading() {
         handler.post(new Runnable() {
@@ -110,8 +123,7 @@ public class VideoStorageProvider {
 
     private void getVideos(boolean reset) {
         onLoading();
-        if (videoCacheEntrys == null || reset) {
-            videoCacheEntrys = new ArrayList<>(1);
+        if (videoCacheEntrys.isEmpty() || reset) {
             AsyncTask.THREAD_POOL_EXECUTOR.execute(loadVideos);
         } else {
             onLoaded(videoCacheEntrys);
@@ -126,7 +138,8 @@ public class VideoStorageProvider {
                 if (result.containsAll(videoCacheEntrys) && (videoCacheEntrys.containsAll(result))) {
                     onLoaded(videoCacheEntrys);
                 } else {
-                    videoCacheEntrys = new ArrayList<>(1);
+                    videoCacheEntrys.clear();
+                    videoCacheEntrys.addAll(result);
                     onLoaded(videoCacheEntrys);
                 }
             } catch (Exception e) {

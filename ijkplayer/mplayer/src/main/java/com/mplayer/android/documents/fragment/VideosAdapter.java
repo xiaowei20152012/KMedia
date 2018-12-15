@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 import com.mplayer.android.R;
 import com.mplayer.android.documents.model.VideoEntry;
+import com.mplayer.android.interfaces.OnItemClickListener;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,6 +18,12 @@ import java.util.List;
 
 public class VideosAdapter extends RecyclerView.Adapter<VideosAdapter.InnerViewHolder> {
     private List<VideoEntry> videoEntries;
+
+    private OnItemClickListener listener;
+
+    public void setOnItemClickListener(OnItemClickListener listener) {
+        this.listener = listener;
+    }
 
     public VideosAdapter() {
         videoEntries = new ArrayList<>(1);
@@ -29,7 +36,9 @@ public class VideosAdapter extends RecyclerView.Adapter<VideosAdapter.InnerViewH
 
     @Override
     public void onBindViewHolder(InnerViewHolder holder, int position) {
-        holder.bindData(videoEntries.get(position));
+        VideoEntry item = videoEntries.get(position);
+        holder.itemView.setTag(item);
+        holder.bindData(item);
     }
 
     @Override
@@ -57,6 +66,14 @@ public class VideosAdapter extends RecyclerView.Adapter<VideosAdapter.InnerViewH
             headPic = itemView.findViewById(R.id.video_item_iv);
             title = itemView.findViewById(R.id.video_item_title);
             menu = itemView.findViewById(R.id.video_item_menu);
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    if (listener != null) {
+                        listener.onClick(v.getTag());
+                    }
+                }
+            });
         }
 
         public void bindData(VideoEntry item) {

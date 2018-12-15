@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import com.mplayer.android.documents.fragment.VideosFragment;
+import com.mplayer.android.documents.provider.VideoStorageProvider;
 import com.mplayer.android.permission.PlayerPermissionActivity;
 
 public class MainActivity extends PlayerPermissionActivity {
@@ -16,6 +17,7 @@ public class MainActivity extends PlayerPermissionActivity {
         if (hasStoragePermission()) {
             showFragment();
         }
+        VideoStorageProvider.create();
     }
 
     private void showFragment() {
@@ -28,5 +30,11 @@ public class MainActivity extends PlayerPermissionActivity {
         if (hasStoragePermission()) {
             showFragment();
         }
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        VideoStorageProvider.create().release();
     }
 }
