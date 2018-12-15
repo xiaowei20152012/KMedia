@@ -81,23 +81,25 @@ public class VideoEntry extends DocumentEntry {
         this.album = album;
         this.artist = artist;
     }
-//    @NonNull
-//    public static ArrayList<VideoEntry> getAllSongs(@NonNull Context context) {
-//        Cursor cursor = makeVideoCursor(context, null, null);
-//        return getSongs(cursor);
-//    }
-//
-//    @NonNull
-//    public static ArrayList<VideoEntry> getSongs(@NonNull final Context context, final String query) {
-//        Cursor cursor = makeVideoCursor(context, MediaStore.Video.VideoColumns.TITLE + " LIKE ?", new String[]{"%" + query + "%"});
-//        return getSongs(cursor);
-//    }
-//
-//    @NonNull
-//    public static VideoEntry getSong(@NonNull final Context context, final int queryId) {
-//        Cursor cursor = makeVideoCursor(context, MediaStore.Video.VideoColumns._ID + "=?", new String[]{String.valueOf(queryId)});
-//        return getSong(cursor);
-//    }
+
+    @NonNull
+    public static ArrayList<VideoEntry> getAllVideos(@NonNull Context context) {
+        Cursor cursor = makeVideoCursor(context, null, null);
+        return getVideos(cursor);
+    }
+
+    @NonNull
+    public static ArrayList<VideoEntry> getVideos(@NonNull final Context context, final String query) {
+        Cursor cursor = makeVideoCursor(context, MediaStore.Video.VideoColumns.TITLE + " LIKE ?", new String[]{"%" + query + "%"});
+        return getVideos(cursor);
+    }
+
+    @NonNull
+    public static VideoEntry getVideo(@NonNull final Context context, final int queryId) {
+        Cursor cursor = makeVideoCursor(context, MediaStore.Video.VideoColumns._ID + "=?", new String[]{String.valueOf(queryId)});
+        return getVideo(cursor);
+    }
+
     @NonNull
     public static VideoEntry getVideo(@Nullable Cursor cursor) {
         VideoEntry video;
@@ -151,6 +153,11 @@ public class VideoEntry extends DocumentEntry {
                 description, duration, category, language,
                 isPrivate, bookMark, bucketDisplayName, bucketId, miniThumeMagic, resolution,
                 tags, album, artist);
+    }
+
+    @Nullable
+    public static Cursor makeVideoCursor(@NonNull final Context context, @Nullable String selection, String[] selectionValues) {
+        return makeVideoCursor(context, selection, selectionValues, MediaStore.Video.Media.DEFAULT_SORT_ORDER);
     }
 
     @Nullable
