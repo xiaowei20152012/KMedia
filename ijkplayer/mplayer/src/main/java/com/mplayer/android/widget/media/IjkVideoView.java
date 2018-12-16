@@ -40,6 +40,7 @@ import android.widget.TableLayout;
 import android.widget.TextView;
 
 import com.mplayer.android.R;
+import com.mplayer.android.service.MediaPlayerService;
 import com.mplayer.android.widget.preference.Settings;
 
 import java.io.File;
@@ -49,7 +50,6 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Map;
 
-//import tv.danmaku.ijk.media.example.services.MediaPlayerService;
 import tv.danmaku.ijk.media.exo.IjkExoMediaPlayer;
 import tv.danmaku.ijk.media.player.AndroidMediaPlayer;
 import tv.danmaku.ijk.media.player.IMediaPlayer;
@@ -1094,13 +1094,13 @@ public class IjkVideoView extends FrameLayout implements MediaController.MediaPl
     private boolean mEnableBackgroundPlay = false;
 
     private void initBackground() {
-//        mEnableBackgroundPlay = mSettings.getEnableBackgroundPlay();
-//        if (mEnableBackgroundPlay) {
-//            MediaPlayerService.intentToStart(getContext());
-//            mMediaPlayer = MediaPlayerService.getMediaPlayer();
-//            if (mHudViewHolder != null)
-//                mHudViewHolder.setMediaPlayer(mMediaPlayer);
-//        }
+        mEnableBackgroundPlay = mSettings.getEnableBackgroundPlay();
+        if (mEnableBackgroundPlay) {
+            MediaPlayerService.intentToStart(getContext());
+            mMediaPlayer = MediaPlayerService.getMediaPlayer();
+            if (mHudViewHolder != null)
+                mHudViewHolder.setMediaPlayer(mMediaPlayer);
+        }
     }
 
     public boolean isBackgroundPlayEnabled() {
@@ -1108,11 +1108,11 @@ public class IjkVideoView extends FrameLayout implements MediaController.MediaPl
     }
 
     public void enterBackground() {
-//        MediaPlayerService.setMediaPlayer(mMediaPlayer);
+        MediaPlayerService.setMediaPlayer(mMediaPlayer);
     }
 
     public void stopBackgroundPlay() {
-//        MediaPlayerService.setMediaPlayer(null);
+        MediaPlayerService.setMediaPlayer(null);
     }
 
     //-------------------------

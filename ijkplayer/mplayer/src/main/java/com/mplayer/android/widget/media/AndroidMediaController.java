@@ -84,4 +84,10 @@ public class AndroidMediaController extends MediaController implements IMediaCon
         view.setVisibility(View.VISIBLE);
         show();
     }
+
+    @Override
+    public void setAnchorView(View view) {
+        super.setAnchorView(view);
+
+    }
 }
