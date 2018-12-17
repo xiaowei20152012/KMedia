@@ -19,13 +19,9 @@ import java.util.List;
 
 
 public class VideosFragment extends VideosBaseFragment implements OnItemClickListener {
-    private static VideosFragment instance;
 
     public static VideosFragment instance() {
-        if (instance == null) {
-            instance = new VideosFragment();
-        }
-        return instance;
+        return new VideosFragment();
     }
 
 
@@ -45,7 +41,7 @@ public class VideosFragment extends VideosBaseFragment implements OnItemClickLis
         super.onViewCreated(view, savedInstanceState);
         loadingBar = view.findViewById(R.id.loading_bar);
         showLoading();
-        recyclerView = view.findViewById(R.id.recycler_view);
+        recyclerView = (RecyclerView) view.findViewById(R.id.recycler_view);
         videosAdapter = new VideosAdapter();
         videosAdapter.setOnItemClickListener(this);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));

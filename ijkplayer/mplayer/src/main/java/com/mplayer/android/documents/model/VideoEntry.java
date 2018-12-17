@@ -5,6 +5,8 @@ import android.content.ContentUris;
 import android.content.Context;
 import android.database.Cursor;
 import android.net.Uri;
+import android.os.Parcel;
+import android.os.Parcelable;
 import android.provider.BaseColumns;
 import android.provider.MediaStore;
 import android.provider.MediaStore.Video.VideoColumns;
@@ -14,7 +16,7 @@ import android.support.annotation.Nullable;
 import java.util.ArrayList;
 
 
-public class VideoEntry extends DocumentEntry {
+public class VideoEntry extends DocumentEntry implements Parcelable {
     public static VideoEntry EMPTY = new VideoEntry(-1, "", "", -1, -1, "", -1, "", "", -1, "", "", "", -1, "", "", "", "");
 
     protected static final String VIDEO_BASE_SELECTION = VideoColumns.TITLE + " != ''";
@@ -85,6 +87,7 @@ public class VideoEntry extends DocumentEntry {
         this.artist = artist;
         this.uri = ContentUris.withAppendedId(MediaStore.Video.Media.EXTERNAL_CONTENT_URI, id);
     }
+
 
     @NonNull
     public static ArrayList<VideoEntry> getAllVideos(@NonNull Context context) {
@@ -186,4 +189,67 @@ public class VideoEntry extends DocumentEntry {
             return null;
         }
     }
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
+        dest.writeInt(id);
+        dest.writeString(title);
+        dest.writeString(data);
+        dest.writeInt(dateTaken);
+        dest.writeInt(dateModified);
+        dest.writeString(description);
+        dest.writeInt(duration);
+        dest.writeString(category);
+        dest.writeString(language);
+        dest.writeInt(isPrivate);
+        dest.writeString(bookMark);
+        dest.writeString(bucketDisplayName);
+        dest.writeString(bucketId);
+        dest.writeInt(miniThumeMagic);
+        dest.writeString(resolution);
+        dest.writeString(tags);
+        dest.writeString(album);
+        dest.writeString(artist);
+        dest.writeParcelable(uri, flags);
+    }
+
+    protected VideoEntry(Parcel in) {
+        id = in.readInt();
+        title = in.readString();
+        data = in.readString();
+        dateTaken = in.readInt();
+        dateModified = in.readInt();
+        description = in.readString();
+        duration = in.readInt();
+        category = in.readString();
+        language = in.readString();
+        isPrivate = in.readInt();
+        bookMark = in.readString();
+        bucketDisplayName = in.readString();
+        bucketId = in.readString();
+        miniThumeMagic = in.readInt();
+        resolution = in.readString();
+        tags = in.readString();
+        album = in.readString();
+        artist = in.readString();
+        uri = in.readParcelable(Uri.class.getClassLoader());
+    }
+
+    public static final Creator<VideoEntry> CREATOR = new Creator<VideoEntry>() {
+        @Override
+        public VideoEntry createFromParcel(Parcel in) {
+            return new VideoEntry(in);
+        }
+
+        @Override
+        public VideoEntry[] newArray(int size) {
+            return new VideoEntry[size];
+        }
+    };
+
 }

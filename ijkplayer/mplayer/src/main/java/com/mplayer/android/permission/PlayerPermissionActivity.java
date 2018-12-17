@@ -27,7 +27,6 @@ public class PlayerPermissionActivity extends AppCompatActivity implements EasyP
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getStoragePermission();
     }
 
 
@@ -35,11 +34,15 @@ public class PlayerPermissionActivity extends AppCompatActivity implements EasyP
         return EasyPermissions.hasPermissions(this, Manifest.permission.WRITE_EXTERNAL_STORAGE);
     }
 
+    protected void storagePermissionSuccess() {
+
+    }
+
     @AfterPermissionGranted(RC_WRITE_EXTERNAL_STORAGE)
-    public void getStoragePermission() {
+    public void checkStoragePermission() {
         if (hasStoragePermission()) {
             // Have permission, do the thing!
-//            Toast.makeText(this, "TODO: Camera things", Toast.LENGTH_LONG).show();
+            storagePermissionSuccess();
         } else {
             // Ask for one permission
             EasyPermissions.requestPermissions(

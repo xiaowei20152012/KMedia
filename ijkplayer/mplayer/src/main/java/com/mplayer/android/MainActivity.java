@@ -14,10 +14,8 @@ public class MainActivity extends PlayerPermissionActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        if (hasStoragePermission()) {
-            showFragment();
-        }
         VideoStorageProvider.create();
+        checkStoragePermission();
     }
 
     private void showFragment() {
@@ -27,6 +25,11 @@ public class MainActivity extends PlayerPermissionActivity {
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
+        storagePermissionSuccess();
+    }
+
+    @Override
+    protected void storagePermissionSuccess() {
         if (hasStoragePermission()) {
             showFragment();
         }
