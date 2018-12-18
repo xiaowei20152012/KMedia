@@ -1,70 +1,50 @@
 package com.mplayer.android.video;
 
 
-import android.content.ContentResolver;
-import android.content.Intent;
-import android.net.Uri;
-import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.support.v7.app.ActionBar;
-import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TableLayout;
-import android.widget.TextView;
 
 import com.mplayer.android.R;
-import com.mplayer.android.widget.media.AndroidMediaController;
-import com.mplayer.android.widget.media.IjkVideoView;
-import com.mplayer.android.widget.preference.Settings;
+import com.mplayer.android.documents.model.VideoEntry;
 
+import tv.danmaku.ijk.media.player.IMediaPlayer;
 import tv.danmaku.ijk.media.player.IjkMediaPlayer;
+import tv.danmaku.ijk.media.player.IjkTimedText;
 
-public class PlayerFragment extends Fragment {
+public class PlayerFragment extends Fragment implements IMediaPlayer.OnBufferingUpdateListener, IMediaPlayer.OnCompletionListener,
+        IMediaPlayer.OnErrorListener, IMediaPlayer.OnInfoListener, IMediaPlayer.OnPreparedListener,
+        IMediaPlayer.OnSeekCompleteListener, IMediaPlayer.OnTimedTextListener, IMediaPlayer.OnVideoSizeChangedListener {
 
-    private static PlayerFragment instance;
+    private static String KEY_VIDEO = "key_video";
 
-    public static PlayerFragment instance() {
-        if (instance == null) {
-            instance = new PlayerFragment();
-        }
-        return instance;
+    public static PlayerFragment instance(VideoEntry videoEntry) {
+
+        PlayerFragment fragment = new PlayerFragment();
+        Bundle bundle = new Bundle();
+        bundle.putParcelable(KEY_VIDEO, videoEntry);
+        fragment.setArguments(bundle);
+        return fragment;
     }
 
-    private String uri;
-    private String title;
-
-    private String mVideoPath;
-    private Uri mVideoUri;
-
-    private AndroidMediaController mMediaController;
-    private IjkVideoView mVideoView;
-    private TextView mToastTextView;
-    private TableLayout mHudView;
-//    private DrawerLayout mDrawerLayout;
-//    private ViewGroup mRightDrawer;
-
-    private Settings mSettings;
-    private boolean mBackPressed;
-
-    public void updateVideo(String uri, String title) {
-        this.uri = uri;
-        this.title = title;
-    }
-
-    public void resetPlayer() {
-
-    }
+    private IMediaPlayer mediaPlayer;
+    private VideoEntry videoEntry;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        if (getArguments() != null) {
+            videoEntry = getArguments().getParcelable(KEY_VIDEO);
+        }
+        if (videoEntry == null) {
+//            showEmpty();
+            return;
+        }
+        createPlayer();
     }
 
     @Nullable
@@ -76,90 +56,122 @@ public class PlayerFragment extends Fragment {
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        mSettings = new Settings(getActivity());
 
-        // handle arguments
-//        mVideoPath = getIntent().getStringExtra("videoPath");
-//
-//        Intent intent = getIntent();
-//        String intentAction = intent.getAction();
-//        if (!TextUtils.isEmpty(intentAction)) {
-//            if (intentAction.equals(Intent.ACTION_VIEW)) {
-//                mVideoPath = intent.getDataString();
-//            } else if (intentAction.equals(Intent.ACTION_SEND)) {
-//                mVideoUri = intent.getParcelableExtra(Intent.EXTRA_STREAM);
-//                if (Build.VERSION.SDK_INT < Build.VERSION_CODES.ICE_CREAM_SANDWICH) {
-//                    String scheme = mVideoUri.getScheme();
-//                    if (TextUtils.isEmpty(scheme)) {
-//                        Log.e(TAG, "Null unknown scheme\n");
-//                        finish();
-//                        return;
-//                    }
-//                    if (scheme.equals(ContentResolver.SCHEME_ANDROID_RESOURCE)) {
-//                        mVideoPath = mVideoUri.getPath();
-//                    } else if (scheme.equals(ContentResolver.SCHEME_CONTENT)) {
-//                        Log.e(TAG, "Can not resolve content below Android-ICS\n");
-//                        finish();
-//                        return;
-//                    } else {
-//                        Log.e(TAG, "Unknown scheme " + scheme + "\n");
-//                        finish();
-//                        return;
-//                    }
-//                }
-//            }
-//        }
-//
-//        if (!TextUtils.isEmpty(mVideoPath)) {
-////            new RecentMediaStorage(this).saveUrlAsync(mVideoPath);
-//        }
-
-        // init UI
-        Toolbar toolbar = (Toolbar) view.findViewById(R.id.toolbar);
-//        getActivity().setSupportActionBar(toolbar);
-
-//        ActionBar actionBar = getSupportActionBar();
-        mMediaController = new AndroidMediaController(getActivity(), false);
-//        mMediaController.setSupportActionBar(actionBar);
-
-        mToastTextView = (TextView) view.findViewById(R.id.toast_text_view);
-        mHudView = (TableLayout) view.findViewById(R.id.hud_view);
-//        mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
-//        mRightDrawer = (ViewGroup) findViewById(R.id.right_drawer);
-//
-//        mDrawerLayout.setScrimColor(Color.TRANSPARENT);
-
-        // init player
-        IjkMediaPlayer.loadLibrariesOnce(null);
-        IjkMediaPlayer.native_profileBegin("libijkplayer.so");
-
-        mVideoView = (IjkVideoView) view.findViewById(R.id.video_view);
-        mVideoView.setMediaController(mMediaController);
-        mVideoView.setHudView(mHudView);
-        // prefer mVideoPath
-        if (mVideoPath != null)
-            mVideoView.setVideoPath(mVideoPath);
-        else if (mVideoUri != null)
-            mVideoView.setVideoURI(mVideoUri);
-        else {
-//            Log.e(TAG, "Null Data Source\n");
-//            finish();
-            return;
-        }
-        mVideoView.start();
     }
 
 
     @Override
     public void onStop() {
         super.onStop();
-        if (mBackPressed || !mVideoView.isBackgroundPlayEnabled()) {
-            mVideoView.stopPlayback();
-            mVideoView.release(true);
-            mVideoView.stopBackgroundPlay();
-        } else {
-            mVideoView.enterBackground();
+    }
+
+    private void createPlayer() {
+        if (mediaPlayer != null) {
+            mediaPlayer.setDisplay(null);
         }
-        IjkMediaPlayer.native_profileEnd();
+
+
+        // init player
+        IjkMediaPlayer.native_profileBegin("libijkplayer.so");
+
+//        if (mUri != null) {
+        IjkMediaPlayer ijkMediaPlayer = new IjkMediaPlayer();
+        ijkMediaPlayer.native_setLogLevel(IjkMediaPlayer.IJK_LOG_DEBUG);
+        ijkMediaPlayer.setOption(IjkMediaPlayer.OPT_CATEGORY_PLAYER, "mediacodec", 1);
+        ijkMediaPlayer.setOption(IjkMediaPlayer.OPT_CATEGORY_PLAYER, "mediacodec-auto-rotate", 0);
+        ijkMediaPlayer.setOption(IjkMediaPlayer.OPT_CATEGORY_PLAYER, "mediacodec-handle-resolution-change", 0);
+        ijkMediaPlayer.setOption(IjkMediaPlayer.OPT_CATEGORY_PLAYER, "opensles", 1);
+        ijkMediaPlayer.setOption(IjkMediaPlayer.OPT_CATEGORY_PLAYER, "framedrop", 1);
+        ijkMediaPlayer.setOption(IjkMediaPlayer.OPT_CATEGORY_PLAYER, "start-on-prepared", 0);
+
+        ijkMediaPlayer.setOption(IjkMediaPlayer.OPT_CATEGORY_FORMAT, "http-detect-range-support", 0);
+
+        ijkMediaPlayer.setOption(IjkMediaPlayer.OPT_CATEGORY_CODEC, "skip_loop_filter", 48);
+        //设置最大探测时间
+        ijkMediaPlayer.setOption(IjkMediaPlayer.OPT_CATEGORY_FORMAT, "analyzemaxduration", 100L);
+        ijkMediaPlayer.setOption(IjkMediaPlayer.OPT_CATEGORY_FORMAT, "analyzeduration", 1);
+
+        mediaPlayer = ijkMediaPlayer;
+
+//            if (mSettings.getUsingMediaCodec()) {
+//                ijkMediaPlayer.setOption(IjkMediaPlayer.OPT_CATEGORY_PLAYER, "mediacodec", 1);
+//                if (mSettings.getUsingMediaCodecAutoRotate()) {
+//                    ijkMediaPlayer.setOption(IjkMediaPlayer.OPT_CATEGORY_PLAYER, "mediacodec-auto-rotate", 1);
+//                } else {
+//                    ijkMediaPlayer.setOption(IjkMediaPlayer.OPT_CATEGORY_PLAYER, "mediacodec-auto-rotate", 0);
+//                }
+//                if (mSettings.getMediaCodecHandleResolutionChange()) {
+//                    ijkMediaPlayer.setOption(IjkMediaPlayer.OPT_CATEGORY_PLAYER, "mediacodec-handle-resolution-change", 1);
+//                } else {
+//                    ijkMediaPlayer.setOption(IjkMediaPlayer.OPT_CATEGORY_PLAYER, "mediacodec-handle-resolution-change", 0);
+//                }
+//            } else {
+//                ijkMediaPlayer.setOption(IjkMediaPlayer.OPT_CATEGORY_PLAYER, "mediacodec", 0);
+//            }
+//
+//            if (mSettings.getUsingOpenSLES()) {
+//                ijkMediaPlayer.setOption(IjkMediaPlayer.OPT_CATEGORY_PLAYER, "opensles", 1);
+//            } else {
+//                ijkMediaPlayer.setOption(IjkMediaPlayer.OPT_CATEGORY_PLAYER, "opensles", 0);
+//            }
+//
+//            String pixelFormat = mSettings.getPixelFormat();
+//            if (TextUtils.isEmpty(pixelFormat)) {
+//                ijkMediaPlayer.setOption(IjkMediaPlayer.OPT_CATEGORY_PLAYER, "overlay-format", IjkMediaPlayer.SDL_FCC_RV32);
+//            } else {
+//                ijkMediaPlayer.setOption(IjkMediaPlayer.OPT_CATEGORY_PLAYER, "overlay-format", pixelFormat);
+//            }
+
+//        ijkMediaPlayer.setOption(IjkMediaPlayer.OPT_CATEGORY_PLAYER, "framedrop", 1);
+//        ijkMediaPlayer.setOption(IjkMediaPlayer.OPT_CATEGORY_PLAYER, "start-on-prepared", 0);
+//
+//        ijkMediaPlayer.setOption(IjkMediaPlayer.OPT_CATEGORY_FORMAT, "http-detect-range-support", 0);
+//
+//        ijkMediaPlayer.setOption(IjkMediaPlayer.OPT_CATEGORY_CODEC, "skip_loop_filter", 48);
+//        //设置最大探测时间
+//        ijkMediaPlayer.setOption(IjkMediaPlayer.OPT_CATEGORY_FORMAT, "analyzemaxduration", 100L);
+//        ijkMediaPlayer.setOption(IjkMediaPlayer.OPT_CATEGORY_FORMAT, "analyzeduration", 1);
+
+
+    }
+
+    @Override
+    public void onPrepared(IMediaPlayer mp) {
+
+    }
+
+    @Override
+    public void onCompletion(IMediaPlayer mp) {
+
+    }
+
+    @Override
+    public void onBufferingUpdate(IMediaPlayer mp, int percent) {
+
+    }
+
+    @Override
+    public void onSeekComplete(IMediaPlayer mp) {
+
+    }
+
+    @Override
+    public void onVideoSizeChanged(IMediaPlayer mp, int width, int height, int sar_num, int sar_den) {
+
+    }
+
+    @Override
+    public boolean onError(IMediaPlayer mp, int what, int extra) {
+        return false;
+    }
+
+    @Override
+    public boolean onInfo(IMediaPlayer mp, int what, int extra) {
+        return false;
+    }
+
+    @Override
+    public void onTimedText(IMediaPlayer mp, IjkTimedText text) {
+
     }
 }

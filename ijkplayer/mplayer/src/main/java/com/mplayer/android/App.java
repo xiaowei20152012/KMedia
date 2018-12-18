@@ -3,6 +3,8 @@ package com.mplayer.android;
 import android.app.Application;
 import android.os.AsyncTask;
 
+import tv.danmaku.ijk.media.player.IjkMediaPlayer;
+
 
 public class App extends Application {
     public static Application context;
@@ -25,7 +27,9 @@ public class App extends Application {
     }
 
     private void onProgressInit() {
-
+        // init player
+        IjkMediaPlayer.loadLibrariesOnce(null);
+//        IjkMediaPlayer.native_profileBegin("libijkplayer.so");
     }
 
     private void onMainInit() {

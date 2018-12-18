@@ -60,8 +60,8 @@ public class PlayerActivity extends AppCompatActivity {
 
 
         getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, PlayerFragment.instance()).commitAllowingStateLoss();
-        mVideoPath = getIntent().getStringExtra("videoPath");
-        PlayerFragment.instance().updateVideo(mVideoPath, "title");
+//        mVideoPath = getIntent().getStringExtra("videoPath");
+//        PlayerFragment.instance().updateVideo(mVideoPath, "title");
 
 
 //        mSettings = new Settings(this);
