@@ -74,7 +74,9 @@ public class PlayerView extends FrameLayout {
     private boolean mCanSeekBack = true;
     private boolean mCanSeekForward = true;
 
-    /** Subtitle rendering widget overlaid on top of the video. */
+    /**
+     * Subtitle rendering widget overlaid on top of the video.
+     */
     // private RenderingWidget mSubtitleWidget;
     private int mVideoSarNum;
     private int mVideoSarDen;
@@ -241,7 +243,14 @@ public class PlayerView extends FrameLayout {
         playVideo(Uri.parse(url));
     }
 
+    public void playVideo() {
+        playVideo(mUri);
+    }
+
+    private Uri mUri;
+
     public void playVideo(Uri uri) {
+        this.mUri = uri;
         try {
             mediaPlayer.setDataSource(context, uri);
         } catch (IOException e) {
@@ -253,7 +262,8 @@ public class PlayerView extends FrameLayout {
 //        mPrepareStartTime = System.currentTimeMillis();
         mediaPlayer.prepareAsync();
         requestLayout();
-        invalidate();    }
+        invalidate();
+    }
 
     private boolean isInPlaybackState() {
 //        return (mediaPlayer != null &&
@@ -322,16 +332,16 @@ public class PlayerView extends FrameLayout {
                 return;
             }
 //
-//            mSurfaceWidth = w;
-//            mSurfaceHeight = h;
-//            boolean isValidState = (mTargetState == STATE_PLAYING);
-//            boolean hasValidSize = !mRenderView.shouldWaitForResize() || (mVideoWidth == w && mVideoHeight == h);
-//            if (mMediaPlayer != null && isValidState && hasValidSize) {
-//                if (mSeekWhenPrepared != 0) {
+            mSurfaceWidth = w;
+            mSurfaceHeight = h;
+            boolean isValidState = (mTargetState == STATE_PLAYING);
+            boolean hasValidSize = !renderVideoView.shouldWaitForResize() || (mVideoWidth == w && mVideoHeight == h);
+            if (mediaPlayer != null && isValidState && hasValidSize) {
+                if (mSeekWhenPrepared != 0) {
 //                    seekTo(mSeekWhenPrepared);
-//                }
-//                start();
-//            }
+                }
+                mediaPlayer.start();
+            }
         }
 
         @Override
@@ -342,10 +352,10 @@ public class PlayerView extends FrameLayout {
             }
 
             surfaceHolder = holder;
-//            if (mMediaPlayer != null)
-//                bindSurfaceHolder(mMediaPlayer, holder);
-//            else
-//                openVideo();
+            if (mediaPlayer != null)
+                bindSurfaceHolder(mediaPlayer, holder);
+            else
+                playVideo();
         }
 
         @Override
