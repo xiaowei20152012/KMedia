@@ -36,11 +36,64 @@ import com.mplayer.android.R;
 import com.mplayer.android.util.AssertUtil;
 
 import java.io.IOException;
+import java.util.Map;
 
 import tv.danmaku.ijk.media.player.IMediaPlayer;
 
 
 public class PlayerView extends FrameLayout {
+
+    private Map<String, String> mHeaders;
+
+    // all possible internal states
+    private static final int STATE_ERROR = -1;
+    private static final int STATE_IDLE = 0;
+    private static final int STATE_PREPARING = 1;
+    private static final int STATE_PREPARED = 2;
+    private static final int STATE_PLAYING = 3;
+    private static final int STATE_PAUSED = 4;
+    private static final int STATE_PLAYBACK_COMPLETED = 5;
+
+    // mCurrentState is a VideoView object's current state.
+    // mTargetState is the state that a method caller intends to reach.
+    // For instance, regardless the VideoView object's current state,
+    // calling pause() intends to bring the object to a target state
+    // of STATE_PAUSED.
+    private int mCurrentState = STATE_IDLE;
+    private int mTargetState = STATE_IDLE;
+
+    private int mVideoWidth;
+    private int mVideoHeight;
+    private int mSurfaceWidth;
+    private int mSurfaceHeight;
+    private int mVideoRotationDegree;
+    private int mCurrentBufferPercentage;
+
+    private int mSeekWhenPrepared;  // recording the seek position while preparing
+    private boolean mCanPause = true;
+    private boolean mCanSeekBack = true;
+    private boolean mCanSeekForward = true;
+
+    /** Subtitle rendering widget overlaid on top of the video. */
+    // private RenderingWidget mSubtitleWidget;
+    private int mVideoSarNum;
+    private int mVideoSarDen;
+
+    private long mPrepareStartTime = 0;
+    private long mPrepareEndTime = 0;
+
+    private long mSeekStartTime = 0;
+    private long mSeekEndTime = 0;
+    private static final int[] s_allAspectRatio = {
+            IRenderView.AR_ASPECT_FIT_PARENT,
+            IRenderView.AR_ASPECT_FILL_PARENT,
+            IRenderView.AR_ASPECT_WRAP_CONTENT,
+            // IRenderView.AR_MATCH_PARENT,
+            IRenderView.AR_16_9_FIT_PARENT,
+            IRenderView.AR_4_3_FIT_PARENT};
+    private int mCurrentAspectRatioIndex = 0;
+    private int mCurrentAspectRatio = s_allAspectRatio[0];
+
     // All the stuff we need for playing and showing a video
     private IRenderView.ISurfaceHolder surfaceHolder = null;
     private IMediaPlayer mediaPlayer;
@@ -78,6 +131,16 @@ public class PlayerView extends FrameLayout {
 
     private void initView(Context context) {
         this.context = context;
+        mVideoWidth = 0;
+        mVideoHeight = 0;
+        // REMOVED: getHolder().addCallback(mSHCallback);
+        // REMOVED: getHolder().setType(SurfaceHolder.SURFACE_TYPE_PUSH_BUFFERS);
+        setFocusable(true);
+        setFocusableInTouchMode(true);
+        requestFocus();
+        // REMOVED: mPendingSubtitleTracks = new Vector<Pair<InputStream, MediaFormat>>();
+        mCurrentState = STATE_IDLE;
+        mTargetState = STATE_IDLE;
         LayoutInflater.from(context).inflate(R.layout.player_view_layout, this);
 
 
@@ -101,29 +164,38 @@ public class PlayerView extends FrameLayout {
             return;
 
         renderVideoView = renderView;
-//        renderView.setAspectRatio(mCurrentAspectRatio);
-//        if (mVideoWidth > 0 && mVideoHeight > 0)
-//            renderView.setVideoSize(mVideoWidth, mVideoHeight);
-//        if (mVideoSarNum > 0 && mVideoSarDen > 0)
-//            renderView.setVideoSampleAspectRatio(mVideoSarNum, mVideoSarDen);
+        renderView.setAspectRatio(mCurrentAspectRatio);
+        if (mVideoWidth > 0 && mVideoHeight > 0)
+            renderView.setVideoSize(mVideoWidth, mVideoHeight);
+        if (mVideoSarNum > 0 && mVideoSarDen > 0)
+            renderView.setVideoSampleAspectRatio(mVideoSarNum, mVideoSarDen);
 
         View renderUIView = renderVideoView.getView();
         LayoutParams lp = new LayoutParams(
-                LayoutParams.WRAP_CONTENT,
-                LayoutParams.WRAP_CONTENT,
+                LayoutParams.MATCH_PARENT,
+                LayoutParams.MATCH_PARENT,
                 Gravity.CENTER);
         renderUIView.setLayoutParams(lp);
         addView(renderUIView);
 
         renderVideoView.addRenderCallback(sufaceCallback);
-//        renderVideoView.setVideoRotation(mVideoRotationDegree);
+        renderVideoView.setVideoRotation(mVideoRotationDegree);
     }
 
 
     private void initPlayerListener() {
         // REMOVED: mAudioSession
         if (AssertUtil.isNotNull(preparedListener)) {
-            mediaPlayer.setOnPreparedListener(preparedListener);
+            mediaPlayer.setOnPreparedListener(new IMediaPlayer.OnPreparedListener() {
+                @Override
+                public void onPrepared(IMediaPlayer mp) {
+                    if (renderVideoView != null)
+                        renderVideoView.setVideoSize(mp.getVideoWidth(), mp.getVideoHeight());
+                    mediaPlayer.start();
+
+                    preparedListener.onPrepared(mp);
+                }
+            });
         }
         if (AssertUtil.isNotNull(sizeChangedListener)) {
             mediaPlayer.setOnVideoSizeChangedListener(sizeChangedListener);
@@ -175,12 +247,22 @@ public class PlayerView extends FrameLayout {
         } catch (IOException e) {
             e.printStackTrace();
         }
-//        bindSurfaceHolder(mMediaPlayer, mSurfaceHolder);
+        bindSurfaceHolder(mediaPlayer, surfaceHolder);
         mediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
         mediaPlayer.setScreenOnWhilePlaying(true);
 //        mPrepareStartTime = System.currentTimeMillis();
         mediaPlayer.prepareAsync();
+        requestLayout();
+        invalidate();    }
+
+    private boolean isInPlaybackState() {
+//        return (mediaPlayer != null &&
+//                mCurrentState != STATE_ERROR &&
+//                mCurrentState != STATE_IDLE &&
+//                mCurrentState != STATE_PREPARING);
+        return false;
     }
+
 
     private void bindSurfaceHolder(IMediaPlayer mp, IRenderView.ISurfaceHolder holder) {
         if (mp == null)

@@ -13,6 +13,7 @@ import com.mplayer.android.VideoActivity;
 import com.mplayer.android.documents.model.VideoEntry;
 import com.mplayer.android.exceptions.VideoException;
 import com.mplayer.android.interfaces.OnItemClickListener;
+import com.mplayer.android.video.PlayerActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -92,7 +93,8 @@ public class VideosFragment extends VideosBaseFragment implements OnItemClickLis
     public void onClick(Object item) {
         if (item instanceof VideoEntry) {
             VideoEntry entry = (VideoEntry) item;
-            VideoActivity.start(getActivity(), entry.uri.toString(), entry.title);
+//            VideoActivity.start(getActivity(), entry.uri.toString(), entry.title);
+            PlayerActivity.start(getActivity(), entry);
         }
     }
 }
