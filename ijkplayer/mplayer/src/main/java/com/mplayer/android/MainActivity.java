@@ -3,7 +3,9 @@ package com.mplayer.android;
 import android.content.Intent;
 import android.os.Bundle;
 
+import com.mplayer.android.documents.fragment.FileListFragment;
 import com.mplayer.android.documents.fragment.VideosFragment;
+import com.mplayer.android.documents.loader.LoaderParam;
 import com.mplayer.android.documents.provider.VideoStorageProvider;
 import com.mplayer.android.permission.PlayerPermissionActivity;
 
@@ -19,7 +21,7 @@ public class MainActivity extends PlayerPermissionActivity {
     }
 
     private void showFragment() {
-        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, VideosFragment.instance()).commitAllowingStateLoss();
+        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, FileListFragment.instance(null, LoaderParam.CACHE_VIDEOS, LoaderParam.VIDEOS_ID)).commitAllowingStateLoss();
     }
 
     @Override

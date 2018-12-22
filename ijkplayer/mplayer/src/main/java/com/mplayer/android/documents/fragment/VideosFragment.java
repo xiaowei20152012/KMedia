@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 
 import com.mplayer.android.R;
 import com.mplayer.android.VideoActivity;
+import com.mplayer.android.documents.model.FileEntry;
 import com.mplayer.android.documents.model.VideoEntry;
 import com.mplayer.android.exceptions.VideoException;
 import com.mplayer.android.interfaces.OnItemClickListener;
@@ -90,11 +91,11 @@ public class VideosFragment extends VideosBaseFragment implements OnItemClickLis
     }
 
     @Override
-    public void onClick(Object item) {
-        if (item instanceof VideoEntry) {
-            VideoEntry entry = (VideoEntry) item;
+    public void onClick(FileEntry item) {
+//        if (item instanceof VideoEntry) {
+//            VideoEntry entry = (VideoEntry) item;
 //            VideoActivity.start(getActivity(), entry.uri.toString(), entry.title);
-            PlayerActivity.start(getActivity(), entry);
-        }
+//            PlayerActivity.start(getActivity(), entry);
+//        }
     }
 }

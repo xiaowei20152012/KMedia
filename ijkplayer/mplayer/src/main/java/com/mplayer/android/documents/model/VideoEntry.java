@@ -13,6 +13,10 @@ import android.provider.MediaStore.Video.VideoColumns;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
+import com.mplayer.android.documents.util.DigestUtils;
+import com.mplayer.android.documents.util.DirectoryUtil;
+
+import java.io.File;
 import java.util.ArrayList;
 
 
@@ -61,7 +65,8 @@ public class VideoEntry extends DocumentEntry implements Parcelable {
     public String tags;
     public String album;
     public String artist;
-    public Uri uri;
+    public String keyMd5;
+
 
     public VideoEntry(int id, String title, String data, int dateTaken, int dateModified, String description,
                       int duration, String category,
@@ -69,7 +74,6 @@ public class VideoEntry extends DocumentEntry implements Parcelable {
                       String bucketId, int miniThumeMagic, String resolution, String tags, String album, String artist) {
         this.id = id;
         this.title = title;
-        this.data = data;
         this.dateTaken = dateTaken;
         this.dateModified = dateModified;
         this.description = description;
@@ -86,6 +90,10 @@ public class VideoEntry extends DocumentEntry implements Parcelable {
         this.album = album;
         this.artist = artist;
         this.uri = ContentUris.withAppendedId(MediaStore.Video.Media.EXTERNAL_CONTENT_URI, id);
+        parent = DirectoryUtil.getParent(uri);
+        file = new File(uri.toString());
+        isDir = file.isDirectory();
+        this.keyMd5 = DigestUtils.md5(uri.toString());
     }
 
 
@@ -216,6 +224,7 @@ public class VideoEntry extends DocumentEntry implements Parcelable {
         dest.writeString(album);
         dest.writeString(artist);
         dest.writeParcelable(uri, flags);
+        dest.writeString(keyMd5);
     }
 
     protected VideoEntry(Parcel in) {
@@ -238,6 +247,7 @@ public class VideoEntry extends DocumentEntry implements Parcelable {
         album = in.readString();
         artist = in.readString();
         uri = in.readParcelable(Uri.class.getClassLoader());
+        keyMd5 = in.readString();
     }
 
     public static final Creator<VideoEntry> CREATOR = new Creator<VideoEntry>() {

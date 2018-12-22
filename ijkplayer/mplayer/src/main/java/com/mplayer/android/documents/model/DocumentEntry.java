@@ -1,15 +1,24 @@
 package com.mplayer.android.documents.model;
 
 
+import android.net.Uri;
+import android.os.Parcel;
+import android.os.Parcelable;
 import android.provider.BaseColumns;
 import android.provider.MediaStore;
 
 import java.io.File;
 
-public class DocumentEntry {
+public abstract class DocumentEntry implements Parcelable {
+
+    public String title;
+    public Uri uri;
+    public String parent;
+    public File file;
+    public boolean isDir;
 
 
-    private void init(){
+    private void init() {
         File file = null;
         file.isFile();
         file.exists();

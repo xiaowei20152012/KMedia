@@ -1,7 +1,6 @@
 package com.mplayer.android.documents.fragment;
 
 import android.support.v7.widget.RecyclerView;
-import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,15 +8,16 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.mplayer.android.R;
-import com.mplayer.android.documents.model.VideoEntry;
+import com.mplayer.android.documents.model.FileEntry;
 import com.mplayer.android.interfaces.OnItemClickListener;
 
 import java.util.ArrayList;
 import java.util.List;
 
 
-public class VideosAdapter extends RecyclerView.Adapter<VideosAdapter.InnerViewHolder> {
-    private List<VideoEntry> videoEntries;
+public class FilesAdapter extends RecyclerView.Adapter<FilesAdapter.InnerViewHolder> {
+
+    private List<FileEntry> entries;
 
     private OnItemClickListener listener;
 
@@ -25,8 +25,8 @@ public class VideosAdapter extends RecyclerView.Adapter<VideosAdapter.InnerViewH
         this.listener = listener;
     }
 
-    public VideosAdapter() {
-        videoEntries = new ArrayList<>(1);
+    public FilesAdapter() {
+        entries = new ArrayList<>(1);
     }
 
     @Override
@@ -36,22 +36,22 @@ public class VideosAdapter extends RecyclerView.Adapter<VideosAdapter.InnerViewH
 
     @Override
     public void onBindViewHolder(InnerViewHolder holder, int position) {
-        VideoEntry item = videoEntries.get(position);
+        FileEntry item = entries.get(position);
         holder.itemView.setTag(item);
         holder.bindData(item);
     }
 
     @Override
     public int getItemCount() {
-        return videoEntries.size();
+        return entries.size();
     }
 
-    public void setList(List<VideoEntry> list) {
+    public void setList(List<FileEntry> list) {
         if (list == null) {
             return;
         }
-        videoEntries.clear();
-        videoEntries.addAll(list);
+        entries.clear();
+        entries.addAll(list);
         notifyDataSetChanged();
     }
 
@@ -59,7 +59,7 @@ public class VideosAdapter extends RecyclerView.Adapter<VideosAdapter.InnerViewH
         private ImageView headPic;
         private TextView title;
         private ImageView menu;
-        private VideoEntry videoCache;
+        private FileEntry videoCache;
 
         public InnerViewHolder(View itemView) {
             super(itemView);
@@ -70,24 +70,24 @@ public class VideosAdapter extends RecyclerView.Adapter<VideosAdapter.InnerViewH
                 @Override
                 public void onClick(View v) {
                     if (listener != null) {
-//                        listener.onClick(v.getTag());
+                        listener.onClick((FileEntry) v.getTag());
                     }
                 }
             });
         }
 
-        public void bindData(VideoEntry item) {
+        public void bindData(FileEntry item) {
             if (shouldRefresh(item)) {
                 videoCache = item;
-                title.setText(item.title);
+                title.setText(item.fileName);
             }
         }
 
-        private boolean shouldRefresh(VideoEntry videoEntry) {
+        private boolean shouldRefresh(FileEntry videoEntry) {
             if (videoEntry == null) {
                 return false;
             }
-            return videoCache == null || videoEntry.id != videoCache.id;
+            return videoCache == null || videoEntry.keyMd5 != videoCache.keyMd5;
         }
 
     }
