@@ -153,8 +153,8 @@ public class FileListFragment extends Fragment implements
     public void onClick(FileEntry item) {
         if (item.isDir && getActivity() != null) {
             ((MainActivity) getActivity()).replaceAddBack(item, item.keyMd5, LoaderParam.File_ID);
-        } else {
-//            PlayerActivity.start();
+        } else if (item.isVideo) {
+            PlayerActivity.start(getActivity(), item);
         }
     }
 }

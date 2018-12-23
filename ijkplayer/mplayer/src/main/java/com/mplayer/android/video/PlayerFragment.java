@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.mplayer.android.R;
+import com.mplayer.android.documents.model.FileEntry;
 import com.mplayer.android.documents.model.VideoEntry;
 import com.mplayer.android.widget.media.PlayerView;
 import com.mplayer.android.widget.preference.Settings;
@@ -26,7 +27,7 @@ public class PlayerFragment extends Fragment implements IMediaPlayer.OnBuffering
 
     private static String KEY_VIDEO = "key_video";
 
-    public static PlayerFragment instance(VideoEntry videoEntry) {
+    public static PlayerFragment instance(FileEntry videoEntry) {
         PlayerFragment fragment = new PlayerFragment();
         Bundle bundle = new Bundle();
         bundle.putParcelable(KEY_VIDEO, videoEntry);
@@ -35,7 +36,7 @@ public class PlayerFragment extends Fragment implements IMediaPlayer.OnBuffering
     }
 
     private IMediaPlayer mediaPlayer;
-    private VideoEntry videoEntry;
+    private FileEntry videoEntry;
     private PlayerView playerView;
     Settings mSettings ;
 

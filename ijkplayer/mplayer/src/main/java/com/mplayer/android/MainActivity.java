@@ -55,7 +55,6 @@ public class MainActivity extends PlayerPermissionActivity {
     @Override
     public void onBackPressed() {
         if (getSupportFragmentManager().getBackStackEntryCount() <= 0) {
-            //这里是取出我们返回栈存在Fragment的个数
             super.onBackPressed();
         } else {
             getSupportFragmentManager().popBackStack();

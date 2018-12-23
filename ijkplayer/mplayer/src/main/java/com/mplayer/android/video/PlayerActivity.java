@@ -11,21 +11,22 @@ import android.view.MenuItem;
 
 import com.mplayer.android.R;
 import com.mplayer.android.VideoActivity;
+import com.mplayer.android.documents.model.FileEntry;
 import com.mplayer.android.documents.model.VideoEntry;
 
 public class PlayerActivity extends AppCompatActivity {
     private static final String TAG = "VideoActivity";
     private static final String KEY_VIDEO = "key_video";
 
-    private VideoEntry videoEntry;
+    private FileEntry videoEntry;
 
-    public static Intent newIntent(Context context, VideoEntry entry) {
+    public static Intent newIntent(Context context, FileEntry entry) {
         Intent intent = new Intent(context, PlayerActivity.class);
         intent.putExtra(KEY_VIDEO, entry);
         return intent;
     }
 
-    public static void start(Context context, VideoEntry entry) {
+    public static void start(Context context, FileEntry entry) {
         context.startActivity(newIntent(context, entry));
     }
 
