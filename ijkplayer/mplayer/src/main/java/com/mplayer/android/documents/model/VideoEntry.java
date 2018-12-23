@@ -13,8 +13,11 @@ import android.provider.MediaStore.Video.VideoColumns;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
+import com.mplayer.android.App;
+import com.mplayer.android.documents.provider.LocalStorageProvider;
 import com.mplayer.android.documents.util.DigestUtils;
 import com.mplayer.android.documents.util.DirectoryUtil;
+import com.mplayer.android.documents.util.FileUtils;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -94,6 +97,7 @@ public class VideoEntry extends DocumentEntry implements Parcelable {
         file = new File(uri.toString());
         isDir = file.isDirectory();
         this.keyMd5 = DigestUtils.md5(uri.toString());
+//        LocalStorageProvider.AUTHORITY.
     }
 
 

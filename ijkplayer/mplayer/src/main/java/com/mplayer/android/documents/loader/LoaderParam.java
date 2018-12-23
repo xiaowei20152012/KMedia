@@ -8,4 +8,5 @@ public interface LoaderParam {
     int VIDEOS_ID = 1;
     String CACHE_VIDEOS = "cache_videos";
     int AUDIOS_ID = 2;
+    int File_ID = 3;
 }

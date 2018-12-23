@@ -3,6 +3,7 @@ package com.mplayer.android.documents.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;
+import android.text.TextUtils;
 
 import com.mplayer.android.documents.misc.MediaFile;
 import com.mplayer.android.documents.util.DigestUtils;
@@ -34,10 +35,13 @@ public class FileEntry implements Parcelable {
         initFileEntry(file);
     }
 
-    public FileEntry(File file, String title) {
-        initFileEntry(file);
-        this.fileName = title;
-    }
+//    public FileEntry(File file, String title, String realUri) {
+//        file = new File(realUri);
+//        initFileEntry(file);
+////        this.fileName = title;
+////        this.uri = realUri;
+////        this.keyMd5 = DigestUtils.md5(uri);
+//    }
 
     public static FileEntry create(String uri) {
         return new FileEntry(new File(uri));
@@ -115,4 +119,38 @@ public class FileEntry implements Parcelable {
             return new FileEntry[size];
         }
     };
+
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        FileEntry o1 = (FileEntry) o;
+
+        if (TextUtils.equals(fileName, o1.fileName) && TextUtils.equals(uri, o1.uri)) {
+            return true;
+        }
+
+
+        return false;
+
+    }
+
+    @Override
+    public int hashCode() {
+        int result = 1;
+        result = 31 * result + (fileName != null ? fileName.hashCode() : 0);
+        result = 31 * result + (uri != null ? uri.hashCode() : 0);
+//        result = 31 * result + trackNumber;
+//        result = 31 * result + year;
+//        result = 31 * result + (int) (duration ^ (duration >>> 32));
+//        result = 31 * result + (data != null ? data.hashCode() : 0);
+//        result = 31 * result + (int) (dateModified ^ (dateModified >>> 32));
+//        result = 31 * result + albumId;
+//        result = 31 * result + (albumName != null ? albumName.hashCode() : 0);
+//        result = 31 * result + artistId;
+//        result = 31 * result + (artistName != null ? artistName.hashCode() : 0);
+        return result;
+    }
 }

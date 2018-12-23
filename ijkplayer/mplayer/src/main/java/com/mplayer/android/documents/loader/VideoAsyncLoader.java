@@ -2,10 +2,13 @@ package com.mplayer.android.documents.loader;
 
 
 import android.content.Context;
+import android.net.Uri;
 
+import com.mplayer.android.App;
 import com.mplayer.android.documents.cache.FileEntryCache;
 import com.mplayer.android.documents.model.FileEntry;
 import com.mplayer.android.documents.model.VideoEntry;
+import com.mplayer.android.documents.util.FileUtils;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -31,7 +34,7 @@ public class VideoAsyncLoader extends WrappedAsyncTaskLoader<List<FileEntry>> {
         List<VideoEntry> videoEntries = VideoEntry.getAllVideos(context);
         ArrayList<FileEntry> list = new ArrayList<>();
         for (VideoEntry entry : videoEntries) {
-            list.add(new FileEntry(entry.file, entry.title));
+            list.add(new FileEntry(FileUtils.getPath(context, entry.uri)));
         }
         if (dir) {
             return getDirs(list);

@@ -31,7 +31,7 @@ public class PlayerPermissionActivity extends AppCompatActivity implements EasyP
 
 
     protected boolean hasStoragePermission() {
-        return EasyPermissions.hasPermissions(this, Manifest.permission.WRITE_EXTERNAL_STORAGE);
+        return EasyPermissions.hasPermissions(this, Manifest.permission.WRITE_EXTERNAL_STORAGE) && EasyPermissions.hasPermissions(this, Manifest.permission.WRITE_EXTERNAL_STORAGE);
     }
 
     protected void storagePermissionSuccess() {

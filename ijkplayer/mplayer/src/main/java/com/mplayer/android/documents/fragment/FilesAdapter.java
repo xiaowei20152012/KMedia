@@ -80,6 +80,11 @@ public class FilesAdapter extends RecyclerView.Adapter<FilesAdapter.InnerViewHol
             if (shouldRefresh(item)) {
                 videoCache = item;
                 title.setText(item.fileName);
+                if (item.isDir) {
+                    headPic.setImageResource(R.drawable.ic_folder);
+                } else {
+                    headPic.setImageResource(R.drawable.ic_file);
+                }
             }
         }
 

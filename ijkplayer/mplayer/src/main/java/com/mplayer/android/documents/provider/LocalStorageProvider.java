@@ -29,7 +29,7 @@ import java.io.IOException;
 @TargetApi(Build.VERSION_CODES.KITKAT)
 public class LocalStorageProvider extends DocumentsProvider {
 
-    public static final String AUTHORITY = "com.ianhanniballake.localstorage.documents";
+    public static final String AUTHORITY = "com.mplayer.android.documents";
 
     /**
      * Default root projection: everything but Root.COLUMN_MIME_TYPES

@@ -17,6 +17,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.mplayer.android.MainActivity;
 import com.mplayer.android.R;
 import com.mplayer.android.documents.cache.FileEntryCache;
 import com.mplayer.android.documents.loader.FileLoader;
@@ -24,6 +25,7 @@ import com.mplayer.android.documents.loader.LoaderParam;
 import com.mplayer.android.documents.loader.VideoAsyncLoader;
 import com.mplayer.android.documents.model.FileEntry;
 import com.mplayer.android.interfaces.OnItemClickListener;
+import com.mplayer.android.video.PlayerActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -130,7 +132,7 @@ public class FileListFragment extends Fragment implements
     @Override
     public Loader<List<FileEntry>> onCreateLoader(int id, Bundle args) {
         if (id == LoaderParam.VIDEOS_ID || fileEntry == null) {
-            return new VideoAsyncLoader(getContext(), false);
+            return new VideoAsyncLoader(getContext(), true);
         }
         return new FileLoader(getContext(), fileEntry.path);
     }
@@ -149,6 +151,10 @@ public class FileListFragment extends Fragment implements
 
     @Override
     public void onClick(FileEntry item) {
-
+        if (item.isDir && getActivity() != null) {
+            ((MainActivity) getActivity()).replaceAddBack(item, item.keyMd5, LoaderParam.File_ID);
+        } else {
+//            PlayerActivity.start();
+        }
     }
 }

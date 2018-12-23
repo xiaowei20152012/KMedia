@@ -2,10 +2,12 @@ package com.mplayer.android;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.FragmentTransaction;
 
 import com.mplayer.android.documents.fragment.FileListFragment;
 import com.mplayer.android.documents.fragment.VideosFragment;
 import com.mplayer.android.documents.loader.LoaderParam;
+import com.mplayer.android.documents.model.FileEntry;
 import com.mplayer.android.documents.provider.VideoStorageProvider;
 import com.mplayer.android.permission.PlayerPermissionActivity;
 
@@ -41,5 +43,22 @@ public class MainActivity extends PlayerPermissionActivity {
     protected void onDestroy() {
         super.onDestroy();
         VideoStorageProvider.create().release();
+    }
+
+    public void replaceAddBack(FileEntry entry, String cacheKey, int loaderId) {
+        FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+        fragmentTransaction.addToBackStack(null);
+        fragmentTransaction.replace(R.id.fragment_container, FileListFragment.instance(entry, cacheKey, loaderId));
+        fragmentTransaction.commit();
+    }
+
+    @Override
+    public void onBackPressed() {
+        if (getSupportFragmentManager().getBackStackEntryCount() <= 0) {
+            //这里是取出我们返回栈存在Fragment的个数
+            super.onBackPressed();
+        } else {
+            getSupportFragmentManager().popBackStack();
+        }
     }
 }
