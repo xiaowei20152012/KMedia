@@ -10,6 +10,7 @@ import android.support.v4.content.Loader;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -55,6 +56,7 @@ public class FileListFragment extends Fragment implements
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setHasOptionsMenu(true);
         Bundle bundle = getArguments();
         if (bundle != null) {
             fileEntry = bundle.getParcelable(LoaderParam.KEY_ENTRY);
@@ -97,15 +99,22 @@ public class FileListFragment extends Fragment implements
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
         super.onCreateOptionsMenu(menu, inflater);
+        inflater.inflate(R.menu.menu_file_list, menu);
+        Log.e("tag", "FileListFragment onCreateOptionsMenu");
+
     }
 
     @Override
     public void onPrepareOptionsMenu(Menu menu) {
         super.onPrepareOptionsMenu(menu);
+        Log.e("tag", "FileListFragment onPrepareOptionsMenu");
+
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        Log.e("tag", "FileListFragment onOptionsItemSelected");
+
         return super.onOptionsItemSelected(item);
     }
 
@@ -157,4 +166,5 @@ public class FileListFragment extends Fragment implements
             PlayerActivity.start(getActivity(), item);
         }
     }
+
 }

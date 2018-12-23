@@ -3,6 +3,10 @@ package com.mplayer.android;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentTransaction;
+import android.support.v7.widget.Toolbar;
+import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 
 import com.mplayer.android.documents.fragment.FileListFragment;
 import com.mplayer.android.documents.fragment.VideosFragment;
@@ -12,18 +16,32 @@ import com.mplayer.android.documents.provider.VideoStorageProvider;
 import com.mplayer.android.permission.PlayerPermissionActivity;
 
 public class MainActivity extends PlayerPermissionActivity {
-
+    private Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        VideoStorageProvider.create();
+        toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+//        VideoStorageProvider.create();
         checkStoragePermission();
     }
 
     private void showFragment() {
         getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, FileListFragment.instance(null, LoaderParam.CACHE_VIDEOS, LoaderParam.VIDEOS_ID)).commitAllowingStateLoss();
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        Log.e("tag","activity onCreateOptionsMenu");
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        Log.e("tag","activity onOptionsItemSelected");
+        return super.onOptionsItemSelected(item);
     }
 
     @Override
@@ -42,7 +60,7 @@ public class MainActivity extends PlayerPermissionActivity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        VideoStorageProvider.create().release();
+//        VideoStorageProvider.create().release();
     }
 
     public void replaceAddBack(FileEntry entry, String cacheKey, int loaderId) {
@@ -59,5 +77,9 @@ public class MainActivity extends PlayerPermissionActivity {
         } else {
             getSupportFragmentManager().popBackStack();
         }
+    }
+
+    public Toolbar getToolbar() {
+        return toolbar;
     }
 }
