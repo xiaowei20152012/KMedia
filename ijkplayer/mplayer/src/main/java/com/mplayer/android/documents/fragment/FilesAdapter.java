@@ -81,9 +81,15 @@ public class FilesAdapter extends RecyclerView.Adapter<FilesAdapter.InnerViewHol
                 videoCache = item;
                 title.setText(item.fileName);
                 if (item.isDir) {
-                    headPic.setImageResource(R.drawable.ic_folder);
+                    headPic.setImageResource(R.drawable.folder_icon);
+                } else if (item.isVideo) {
+                    headPic.setImageResource(R.drawable.video_icon);
+                } else if (item.isAudio) {
+                    headPic.setImageResource(R.drawable.music_icon);
+                } else if (item.isImage) {
+                    headPic.setImageResource(R.drawable.image_icon);
                 } else {
-                    headPic.setImageResource(R.drawable.ic_file);
+                    headPic.setImageResource(R.drawable.file_icon);
                 }
             }
         }

@@ -10,8 +10,7 @@
         android:layout_height="40dp"
         android:layout_gravity="center_vertical"
         android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:src="@drawable/ic_file" />
+        android:layout_marginRight="16dp" />
 
     <TextView
         android:id="@+id/video_item_title"
@@ -23,11 +22,11 @@
 
     <ImageView
         android:id="@+id/video_item_menu"
-        android:layout_width="30dp"
-        android:layout_height="40dp"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
         android:layout_gravity="center_vertical"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:src="@drawable/ic_launcher" />
+        android:src="@drawable/menu_more_gray_icon" />
 
 </LinearLayout>

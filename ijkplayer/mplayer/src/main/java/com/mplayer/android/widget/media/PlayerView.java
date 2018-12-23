@@ -94,7 +94,7 @@ public class PlayerView extends FrameLayout {
             IRenderView.AR_16_9_FIT_PARENT,
             IRenderView.AR_4_3_FIT_PARENT};
     private int mCurrentAspectRatioIndex = 0;
-    private int mCurrentAspectRatio = s_allAspectRatio[0];
+    private int mCurrentAspectRatio = s_allAspectRatio[1];
 
     // All the stuff we need for playing and showing a video
     private IRenderView.ISurfaceHolder surfaceHolder = null;

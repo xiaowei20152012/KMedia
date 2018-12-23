@@ -2,7 +2,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/action_android"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/menu_setting_icon"
         android:title="设置"
         app:showAsAction="always">
 

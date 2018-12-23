@@ -8,6 +8,7 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 import com.mplayer.android.R;
 import com.mplayer.android.VideoActivity;
@@ -34,6 +35,7 @@ public class PlayerActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        findViewById(R.id.toolbar).setVisibility(View.GONE);
         if (getIntent() == null) {
             finish();
             return;

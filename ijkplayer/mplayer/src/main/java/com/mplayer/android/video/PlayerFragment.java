@@ -43,7 +43,6 @@ public class PlayerFragment extends Fragment implements IMediaPlayer.OnBuffering
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setHasOptionsMenu(true);
         if (getArguments() != null) {
             videoEntry = getArguments().getParcelable(KEY_VIDEO);
         }
