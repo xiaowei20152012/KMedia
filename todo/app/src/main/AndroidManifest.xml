@@ -19,19 +19,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"></activity>
         <activity
-            android:name=".HomeActivity"
-            android:configChanges="orientation|keyboardHidden|navigation|screenSize">
+            android:name=".MainActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"></activity>
+
         <service
             android:name=".service.MusicPlayService"
             android:enabled="true" />
+
         <meta-data
             android:name="io.fabric.ApiKey"
             android:value="945b07052fbe2cd486e31e54f4f32f89b032de06" />
