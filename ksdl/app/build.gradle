@@ -11,8 +11,18 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         externalNativeBuild {
             cmake {
+                arguments "-DANDROID_PLATFORM=android-16"
+
+                cFlags "-DGL_GLEXT_PROTOTYPES -Wall -Wextra -Wdocumentation -Wdocumentation-unknown-command " +
+                        "-Wmissing-prototypes -Wunreachable-code-break -Wunneeded-internal-declaration -Wmissing-variable-declarations -Wfloat-conversion " +
+                        "-Wunreachable-code-return -Wno-unused-parameter -Wno-sign-compare "
                 cppFlags "-std=c++11"
             }
+        }
+        ndk{
+            ldLibs "log"
+//            abiFilter 'armeabi-v8a'
+            abiFilter 'arm64-v8a'
         }
     }
     buildTypes {
