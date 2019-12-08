@@ -1,2 +1,0 @@
-include ':app',':sdl'
-rootProject.name='ksdl'
