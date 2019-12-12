@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.4.1)
 
 #直接添加SDL库
-include_directories(${CMAKE_SOURCE_DIR}/libs/SDL2/include)
-add_subdirectory(${CMAKE_SOURCE_DIR}/libs/SDL2)
+#include_directories(${CMAKE_SOURCE_DIR}/libs/SDL2/include)
+#add_subdirectory(${CMAKE_SOURCE_DIR}/libs/SDL2)
 
 # 添加FFMpeg
 #native-lib
@@ -29,26 +29,18 @@ set_target_properties(ffmpeg PROPERTIES IMPORTED_LOCATION ${LINK_DIR}/libffmpeg.
 #LOCAL_SHARED_LIBRARIES := SDL2
 #
 #LOCAL_LDLIBS := -lGLESv1_CM -lGLESv2 -llog
-file(GLOB MAIN_SOURCE src/main/cpp/log.h
-        src/main/cpp/native-lib.cpp
-        src/main/cpp/native-lib-audio.cpp
-        src/main/cpp/native-lib-bmg.cpp
-        src/main/cpp/native-lib-su.cpp)
+#file(GLOB MAIN_SOURCE src/main/cpp/log.h
+#        src/main/cpp/native-lib.cpp
+#        src/main/cpp/native-lib-audio.cpp
+#        src/main/cpp/native-lib-bmg.cpp
+#        src/main/cpp/native-lib-su.cpp)
 
 add_library(
-        #他原来的名字，就是叫main  保持一致
-        main
+        native_lib
         # Sets the library as a shared library.
         SHARED
         # Provides a relative path to your source file(s).
-        ${MAIN_SOURCE}
-#        src/main/cpp/native-lib-bmg.cpp
-#        src/main/cpp/native-lib-su.cpp
-#        src/main/cpp/native-lib-audio.cpp
-#        src/main/cpp/video_player.cpp
-#        src/main/cpp/ffplay/ffplay.c
-#        src/main/cpp/ffplay/cmdutils.c
-#        src/main/cpp/ffplay/cmdutils_opencl.c
+        src/main/cpp/native_lib.cpp
 )
 
 
@@ -60,10 +52,10 @@ find_library( # Sets the name of the path variable.
         log)
 
 target_link_libraries( # Specifies the target library.
-        main
-        SDL2
-        GLESv1_CM
-        GLESv2
+        native_lib
+#        SDL2
+#        GLESv1_CM
+#        GLESv2
         ffmpeg
         # Links the target library to the log library
         # included in the NDK.

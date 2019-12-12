@@ -1,7 +1,1333 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b0b9ab1-b997-4707-a9b1-20015c9f7f46" name="Default Changelist" comment="" />
+    <list default="true" id="4b0b9ab1-b997-4707-a9b1-20015c9f7f46" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_1_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_solver_1_1_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/native_lib.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/native_lib.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ffsdl/kmedia/HomeActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ffsdl/kmedia/KMediaPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Android.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/BUGS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/COPYING.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/CREDITS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/INSTALL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Makefile.minimal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Makefile.os2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Makefile.pandora" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Makefile.psp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Makefile.wiz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/README-SDL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/SDL2.spec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/SDL2.spec.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/SDL2Config.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/TODO.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC-WinRT/SDL2-WinRT.nuspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC-WinRT/SDL2-WinRT.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC-WinRT/SDL2main-WinRT-NonXAML.nuspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC-WinRT/SDL2main-WinRT-NonXAML.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC-WinRT/UWP_VS2015/SDL-UWP.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC-WinRT/UWP_VS2015/SDL-UWP.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC-WinRT/UWP_VS2015/SDL-UWP.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC-WinRT/WinPhone81_VS2013/SDL-WinPhone81.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC-WinRT/WinPhone81_VS2013/SDL-WinPhone81.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC-WinRT/WinPhone81_VS2013/SDL-WinPhone81.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC-WinRT/WinRT81_VS2013/SDL-WinRT81.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC-WinRT/WinRT81_VS2013/SDL-WinRT81.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC-WinRT/WinRT81_VS2013/SDL-WinRT81.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC-WinRT/tests/loopwave/Assets/Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC-WinRT/tests/loopwave/Assets/SmallLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC-WinRT/tests/loopwave/Assets/SplashScreen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC-WinRT/tests/loopwave/Assets/StoreLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC-WinRT/tests/loopwave/Package.appxmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC-WinRT/tests/loopwave/loopwave_VS2012.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC-WinRT/tests/loopwave/loopwave_VS2012_TemporaryKey.pfx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC-WinRT/tests/testthread/Assets/Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC-WinRT/tests/testthread/Assets/SmallLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC-WinRT/tests/testthread/Assets/SplashScreen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC-WinRT/tests/testthread/Assets/StoreLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC-WinRT/tests/testthread/Package.appxmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC-WinRT/tests/testthread/testthread_VS2012.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC-WinRT/tests/testthread/testthread_VS2012_TemporaryKey.pfx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC/SDL.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC/SDL/SDL.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC/SDL/SDL.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC/SDLmain/SDLmain.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC/SDLtest/SDLtest.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC/clean.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC/tests/checkkeys/checkkeys.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC/tests/controllermap/controllermap.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC/tests/loopwave/loopwave.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC/tests/testatomic/testatomic.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC/tests/testautomation/testautomation.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC/tests/testdraw2/testdraw2.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC/tests/testfile/testfile.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC/tests/testgamecontroller/testgamecontroller.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC/tests/testgesture/testgesture.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC/tests/testgl2/testgl2.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC/tests/testgles2/testgles2.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC/tests/testjoystick/testjoystick.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC/tests/testoverlay2/testoverlay2.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC/tests/testplatform/testplatform.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC/tests/testpower/testpower.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC/tests/testrendertarget/testrendertarget.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC/tests/testrumble/testrumble.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC/tests/testscale/testscale.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC/tests/testshape/testshape.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC/tests/testsprite2/testsprite2.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC/tests/testvulkan/testvulkan.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC/tests/testyuv/testyuv.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC/visualtest/unittest/testquit/testquit_VS2012.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/VisualC/visualtest/visualtest_VS2012.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/WhatsNew.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode-iOS/Demos/Default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode-iOS/Demos/Demos.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode-iOS/Demos/Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode-iOS/Demos/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode-iOS/Demos/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode-iOS/Demos/data/bitmapfont/kromasky_16x16.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode-iOS/Demos/data/bitmapfont/license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode-iOS/Demos/data/drums/ds_brush_snare.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode-iOS/Demos/data/drums/ds_china.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode-iOS/Demos/data/drums/ds_kick_big_amb.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode-iOS/Demos/data/drums/ds_loose_skin_mute.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode-iOS/Demos/data/icon.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode-iOS/Demos/data/ship.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode-iOS/Demos/data/space.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode-iOS/Demos/data/stroke.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode-iOS/Demos/iOS Launch Screen.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode-iOS/Demos/src/accelerometer.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode-iOS/Demos/src/common.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode-iOS/Demos/src/common.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode-iOS/Demos/src/fireworks.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode-iOS/Demos/src/happy.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode-iOS/Demos/src/keyboard.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode-iOS/Demos/src/mixer.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode-iOS/Demos/src/rectangles.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode-iOS/Demos/src/touch.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode-iOS/SDL/SDL.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode-iOS/SDLtest/SDL2test.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode-iOS/Template/SDL iOS Application/Default-568h@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode-iOS/Template/SDL iOS Application/Default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode-iOS/Template/SDL iOS Application/Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode-iOS/Template/SDL iOS Application/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode-iOS/Template/SDL iOS Application/___PROJECTNAME___.xcodeproj/TemplateIcon.icns" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode-iOS/Template/SDL iOS Application/___PROJECTNAME___.xcodeproj/TemplateInfo.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode-iOS/Template/SDL iOS Application/___PROJECTNAME___.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode-iOS/Template/SDL iOS Application/___PROJECTNAME___.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode-iOS/Template/SDL iOS Application/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode-iOS/Test/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode-iOS/Test/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode-iOS/Test/TestiPhoneOS.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode/SDL/Info-Framework.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode/SDL/SDL.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode/SDL/SDL.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode/SDL/SDL.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode/SDL/SDL.xcodeproj/project.xcworkspace/xcuserdata/cry.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode/SDL/SDL.xcodeproj/xcuserdata/cry.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode/SDL/pkg-support/SDL.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode/SDL/pkg-support/resources/License.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode/SDL/pkg-support/resources/ReadMe.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode/SDL/pkg-support/resources/SDL_DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode/SDL/pkg-support/sdl_logo.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode/SDLTest/SDLTest.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode/SDLTest/SDLTest.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode/SDLTest/SDLTest.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode/SDLTest/SDLTest.xcodeproj/project.xcworkspace/xcuserdata/cry.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode/SDLTest/SDLTest.xcodeproj/xcuserdata/cry.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode/SDLTest/TestDropFile-Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/Xcode/XcodeDocSet/Doxyfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/acinclude/ac_check_define.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/acinclude/alsa.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/acinclude/ax_check_compiler_flags.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/acinclude/ax_gcc_archflag.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/acinclude/ax_gcc_x86_cpuid.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/acinclude/esd.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/acinclude/libtool.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/acinclude/ltoptions.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/acinclude/ltsugar.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/acinclude/ltversion.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/acinclude/lt~obsolete.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/android-project/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/android-project/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/android-project/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/android-project/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/android-project/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/android-project/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/android-project/app/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/android-project/app/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/android-project/app/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/android-project/app/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/android-project/app/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/android-project/app/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/android-project/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/android-project/app/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/android-project/app/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/android-project/app/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/android-project/app/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/android-project/app/jni/Android.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/android-project/app/jni/Application.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/android-project/app/jni/src/Android.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/android-project/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/android-project/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/android-project/app/src/main/java/org/libsdl/app/HIDDevice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/android-project/app/src/main/java/org/libsdl/app/HIDDeviceBLESteamController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/android-project/app/src/main/java/org/libsdl/app/HIDDeviceManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/android-project/app/src/main/java/org/libsdl/app/HIDDeviceUSB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/android-project/app/src/main/java/org/libsdl/app/SDL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/android-project/app/src/main/java/org/libsdl/app/SDLActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/android-project/app/src/main/java/org/libsdl/app/SDLAudioManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/android-project/app/src/main/java/org/libsdl/app/SDLControllerManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/android-project/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/android-project/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/android-project/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/android-project/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/android-project/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/android-project/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/android-project/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/android-project/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/android-project/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/android-project/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/android-project/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/android-project/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/android-project/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/android-project/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/android-project/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/autogen.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/build-scripts/androidbuild.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/build-scripts/androidbuildlibs.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/build-scripts/checker-buildbot.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/build-scripts/config.guess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/build-scripts/config.sub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/build-scripts/config.sub.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/build-scripts/emscripten-buildbot.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/build-scripts/g++-fat.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/build-scripts/gcc-fat.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/build-scripts/install-sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/build-scripts/iosbuild.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/build-scripts/ltmain.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/build-scripts/mkinstalldirs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/build-scripts/nacl-buildbot.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/build-scripts/naclbuild.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/build-scripts/raspberrypi-buildbot.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/build-scripts/showrev.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/build-scripts/strip_fPIC.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/build-scripts/update-copyright.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/build-scripts/updaterev.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/build-scripts/windows-buildbot-zipper.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/build-scripts/winrtbuild.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/build-scripts/winrtbuild.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/cmake/macros.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/cmake/sdlchecks.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/cmake_uninstall.cmake.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/configure" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/configure.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/debian/changelog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/debian/compat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/debian/control" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/debian/copyright" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/debian/docs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/debian/libsdl2-dev.install" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/debian/libsdl2-dev.manpages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/debian/libsdl2.install" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/debian/rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/debian/sdl2-config.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/debian/source/format" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/debian/watch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/docs/README-android.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/docs/README-cmake.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/docs/README-directfb.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/docs/README-dynapi.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/docs/README-emscripten.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/docs/README-gesture.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/docs/README-hg.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/docs/README-ios.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/docs/README-linux.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/docs/README-macosx.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/docs/README-nacl.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/docs/README-pandora.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/docs/README-platforms.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/docs/README-porting.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/docs/README-psp.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/docs/README-raspberrypi.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/docs/README-touch.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/docs/README-wince.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/docs/README-windows.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/docs/README-winrt.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/docs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/docs/doxyfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_assert.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_atomic.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_audio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_bits.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_blendmode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_clipboard.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_config.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_config.h.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_config.h.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_config_android.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_config_iphoneos.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_config_macosx.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_config_minimal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_config_os2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_config_pandora.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_config_psp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_config_windows.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_config_winrt.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_config_wiz.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_copying.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_cpuinfo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_egl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_endian.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_error.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_events.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_filesystem.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_gamecontroller.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_gesture.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_haptic.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_hints.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_joystick.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_keyboard.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_keycode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_loadso.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_log.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_main.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_messagebox.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_mouse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_mutex.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_name.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_opengl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_opengl_glext.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_opengles.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_opengles2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_opengles2_gl2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_opengles2_gl2ext.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_opengles2_gl2platform.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_opengles2_khrplatform.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_pixels.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_platform.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_power.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_quit.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_rect.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_render.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_revision.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_rwops.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_scancode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_sensor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_shape.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_stdinc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_surface.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_system.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_syswm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_test.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_test_assert.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_test_common.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_test_compare.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_test_crc32.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_test_font.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_test_fuzzer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_test_harness.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_test_images.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_test_log.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_test_md5.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_test_memory.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_test_random.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_thread.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_timer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_touch.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_types.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_version.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_video.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/SDL_vulkan.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/begin_code.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/include/close_code.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/sdl2-config.cmake.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/sdl2-config.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/sdl2.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/sdl2.pc.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/SDL.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/SDL_assert.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/SDL_assert_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/SDL_dataqueue.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/SDL_dataqueue.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/SDL_error.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/SDL_error_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/SDL_hints.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/SDL_internal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/SDL_log.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/atomic/SDL_atomic.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/atomic/SDL_spinlock.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/SDL_audio.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/SDL_audio_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/SDL_audiocvt.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/SDL_audiodev.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/SDL_audiodev_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/SDL_audiotypecvt.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/SDL_mixer.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/SDL_sysaudio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/SDL_wave.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/SDL_wave.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/alsa/SDL_alsa_audio.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/alsa/SDL_alsa_audio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/android/SDL_androidaudio.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/android/SDL_androidaudio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/arts/SDL_artsaudio.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/arts/SDL_artsaudio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/coreaudio/SDL_coreaudio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/coreaudio/SDL_coreaudio.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/directsound/SDL_directsound.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/directsound/SDL_directsound.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/disk/SDL_diskaudio.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/disk/SDL_diskaudio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/dsp/SDL_dspaudio.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/dsp/SDL_dspaudio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/dummy/SDL_dummyaudio.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/dummy/SDL_dummyaudio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/emscripten/SDL_emscriptenaudio.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/emscripten/SDL_emscriptenaudio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/esd/SDL_esdaudio.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/esd/SDL_esdaudio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/fusionsound/SDL_fsaudio.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/fusionsound/SDL_fsaudio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/haiku/SDL_haikuaudio.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/haiku/SDL_haikuaudio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/jack/SDL_jackaudio.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/jack/SDL_jackaudio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/nacl/SDL_naclaudio.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/nacl/SDL_naclaudio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/nas/SDL_nasaudio.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/nas/SDL_nasaudio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/netbsd/SDL_netbsdaudio.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/netbsd/SDL_netbsdaudio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/paudio/SDL_paudio.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/paudio/SDL_paudio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/psp/SDL_pspaudio.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/psp/SDL_pspaudio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/pulseaudio/SDL_pulseaudio.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/pulseaudio/SDL_pulseaudio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/qsa/SDL_qsa_audio.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/qsa/SDL_qsa_audio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/sndio/SDL_sndioaudio.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/sndio/SDL_sndioaudio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/sun/SDL_sunaudio.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/sun/SDL_sunaudio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/wasapi/SDL_wasapi.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/wasapi/SDL_wasapi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/wasapi/SDL_wasapi_win32.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/wasapi/SDL_wasapi_winrt.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/winmm/SDL_winmm.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/audio/winmm/SDL_winmm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/core/android/SDL_android.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/core/android/SDL_android.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/core/android/keyinfotable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/core/linux/SDL_dbus.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/core/linux/SDL_dbus.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/core/linux/SDL_evdev.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/core/linux/SDL_evdev.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/core/linux/SDL_evdev_kbd.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/core/linux/SDL_evdev_kbd.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/core/linux/SDL_evdev_kbd_default_accents.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/core/linux/SDL_evdev_kbd_default_keymap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/core/linux/SDL_fcitx.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/core/linux/SDL_fcitx.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/core/linux/SDL_ibus.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/core/linux/SDL_ibus.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/core/linux/SDL_ime.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/core/linux/SDL_ime.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/core/linux/SDL_udev.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/core/linux/SDL_udev.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/core/unix/SDL_poll.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/core/unix/SDL_poll.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/core/windows/SDL_directx.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/core/windows/SDL_windows.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/core/windows/SDL_windows.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/core/windows/SDL_xinput.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/core/windows/SDL_xinput.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/core/winrt/SDL_winrtapp_common.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/core/winrt/SDL_winrtapp_common.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/core/winrt/SDL_winrtapp_direct3d.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/core/winrt/SDL_winrtapp_direct3d.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/core/winrt/SDL_winrtapp_xaml.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/core/winrt/SDL_winrtapp_xaml.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/cpuinfo/SDL_cpuinfo.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/cpuinfo/SDL_simd.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/dynapi/SDL_dynapi.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/dynapi/SDL_dynapi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/dynapi/SDL_dynapi_overrides.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/dynapi/SDL_dynapi_procs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/dynapi/gendynapi.pl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/events/SDL_clipboardevents.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/events/SDL_clipboardevents_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/events/SDL_displayevents.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/events/SDL_displayevents_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/events/SDL_dropevents.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/events/SDL_dropevents_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/events/SDL_events.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/events/SDL_events_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/events/SDL_gesture.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/events/SDL_gesture_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/events/SDL_keyboard.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/events/SDL_keyboard_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/events/SDL_mouse.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/events/SDL_mouse_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/events/SDL_quit.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/events/SDL_sysevents.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/events/SDL_touch.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/events/SDL_touch_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/events/SDL_windowevents.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/events/SDL_windowevents_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/events/blank_cursor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/events/default_cursor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/events/scancodes_darwin.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/events/scancodes_linux.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/events/scancodes_windows.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/events/scancodes_xfree86.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/file/SDL_rwops.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/file/cocoa/SDL_rwopsbundlesupport.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/file/cocoa/SDL_rwopsbundlesupport.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/filesystem/android/SDL_sysfilesystem.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/filesystem/cocoa/SDL_sysfilesystem.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/filesystem/dummy/SDL_sysfilesystem.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/filesystem/emscripten/SDL_sysfilesystem.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/filesystem/haiku/SDL_sysfilesystem.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/filesystem/nacl/SDL_sysfilesystem.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/filesystem/unix/SDL_sysfilesystem.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/filesystem/windows/SDL_sysfilesystem.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/filesystem/winrt/SDL_sysfilesystem.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/haptic/SDL_haptic.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/haptic/SDL_haptic_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/haptic/SDL_syshaptic.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/haptic/android/SDL_syshaptic.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/haptic/android/SDL_syshaptic_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/haptic/darwin/SDL_syshaptic.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/haptic/darwin/SDL_syshaptic_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/haptic/dummy/SDL_syshaptic.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/haptic/linux/SDL_syshaptic.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/haptic/windows/SDL_dinputhaptic.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/haptic/windows/SDL_dinputhaptic_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/haptic/windows/SDL_windowshaptic.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/haptic/windows/SDL_windowshaptic_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/haptic/windows/SDL_xinputhaptic.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/haptic/windows/SDL_xinputhaptic_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/AUTHORS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/HACKING.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/LICENSE-bsd.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/LICENSE-gpl3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/LICENSE-orig.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/android/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/android/hid.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/android/jni/Android.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/android/jni/Application.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/android/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/bootstrap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/configure.ac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/doxygen/Doxyfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/hidapi/hidapi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/hidtest/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/hidtest/hidtest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/ios/Makefile-manual" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/ios/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/ios/hid.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/libusb/Makefile-manual" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/libusb/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/libusb/Makefile.freebsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/libusb/Makefile.linux" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/libusb/hid.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/libusb/hidusb.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/linux/Makefile-manual" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/linux/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/linux/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/linux/hid.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/linux/hid.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/linux/hidraw.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/m4/ax_pthread.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/m4/pkg.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/mac/Makefile-manual" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/mac/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/mac/hid.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/pc/hidapi-hidraw.pc.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/pc/hidapi-libusb.pc.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/pc/hidapi.pc.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/testgui/Makefile-manual" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/testgui/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/testgui/Makefile.freebsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/testgui/Makefile.linux" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/testgui/Makefile.mac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/testgui/Makefile.mingw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/testgui/TestGUI.app.in/Contents/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/testgui/TestGUI.app.in/Contents/PkgInfo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/testgui/TestGUI.app.in/Contents/Resources/English.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/testgui/TestGUI.app.in/Contents/Resources/Signal11.icns" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/testgui/copy_to_bundle.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/testgui/mac_support.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/testgui/mac_support.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/testgui/mac_support_cocoa.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/testgui/start.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/testgui/test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/testgui/testgui.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/testgui/testgui.vcproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/udev/99-hid.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/windows/Makefile-manual" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/windows/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/windows/Makefile.mingw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/windows/ddk_build/hidapi.def" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/windows/ddk_build/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/windows/ddk_build/sources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/windows/hid.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/windows/hidapi.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/windows/hidapi.vcproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/hidapi/windows/hidtest.vcproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/joystick/SDL_gamecontroller.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/joystick/SDL_gamecontrollerdb.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/joystick/SDL_joystick.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/joystick/SDL_joystick_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/joystick/SDL_sysjoystick.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/joystick/android/SDL_sysjoystick.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/joystick/android/SDL_sysjoystick_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/joystick/bsd/SDL_sysjoystick.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/joystick/controller_type.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/joystick/darwin/SDL_sysjoystick.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/joystick/darwin/SDL_sysjoystick_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/joystick/dummy/SDL_sysjoystick.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/joystick/emscripten/SDL_sysjoystick.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/joystick/emscripten/SDL_sysjoystick_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/joystick/haiku/SDL_haikujoystick.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/joystick/hidapi/SDL_hidapi_ps4.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/joystick/hidapi/SDL_hidapi_switch.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/joystick/hidapi/SDL_hidapi_xbox360.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/joystick/hidapi/SDL_hidapi_xboxone.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/joystick/hidapi/SDL_hidapijoystick.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/joystick/hidapi/SDL_hidapijoystick_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/joystick/iphoneos/SDL_sysjoystick.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/joystick/iphoneos/SDL_sysjoystick_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/joystick/linux/SDL_sysjoystick.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/joystick/linux/SDL_sysjoystick_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/joystick/psp/SDL_sysjoystick.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/joystick/sort_controllers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/joystick/steam/SDL_steamcontroller.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/joystick/steam/SDL_steamcontroller.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/joystick/windows/SDL_dinputjoystick.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/joystick/windows/SDL_dinputjoystick_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/joystick/windows/SDL_mmjoystick.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/joystick/windows/SDL_windowsjoystick.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/joystick/windows/SDL_windowsjoystick_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/joystick/windows/SDL_xinputjoystick.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/joystick/windows/SDL_xinputjoystick_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/libm/e_atan2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/libm/e_exp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/libm/e_fmod.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/libm/e_log.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/libm/e_log10.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/libm/e_pow.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/libm/e_rem_pio2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/libm/e_sqrt.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/libm/k_cos.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/libm/k_rem_pio2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/libm/k_sin.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/libm/k_tan.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/libm/math_libm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/libm/math_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/libm/s_atan.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/libm/s_copysign.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/libm/s_cos.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/libm/s_fabs.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/libm/s_floor.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/libm/s_scalbn.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/libm/s_sin.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/libm/s_tan.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/loadso/dlopen/SDL_sysloadso.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/loadso/dummy/SDL_sysloadso.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/loadso/windows/SDL_sysloadso.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/main/android/SDL_android_main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/main/dummy/SDL_dummy_main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/main/haiku/SDL_BApp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/main/haiku/SDL_BeApp.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/main/haiku/SDL_BeApp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/main/nacl/SDL_nacl_main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/main/psp/SDL_psp_main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/main/windows/SDL_windows_main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/main/windows/version.rc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/main/winrt/SDL2-WinRTResource_BlankCursor.cur" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/main/winrt/SDL2-WinRTResources.rc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/main/winrt/SDL_winrt_main_NonXAML.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/power/SDL_power.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/power/SDL_syspower.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/power/android/SDL_syspower.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/power/emscripten/SDL_syspower.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/power/haiku/SDL_syspower.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/power/linux/SDL_syspower.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/power/macosx/SDL_syspower.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/power/psp/SDL_syspower.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/power/uikit/SDL_syspower.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/power/uikit/SDL_syspower.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/power/windows/SDL_syspower.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/power/winrt/SDL_syspower.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/render/SDL_d3dmath.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/render/SDL_d3dmath.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/render/SDL_render.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/render/SDL_sysrender.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/render/SDL_yuv_sw.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/render/SDL_yuv_sw_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/render/direct3d/SDL_render_d3d.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/render/direct3d/SDL_shaders_d3d.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/render/direct3d/SDL_shaders_d3d.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/render/direct3d11/SDL_render_d3d11.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/render/direct3d11/SDL_render_winrt.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/render/direct3d11/SDL_render_winrt.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/render/direct3d11/SDL_shaders_d3d11.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/render/direct3d11/SDL_shaders_d3d11.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/render/metal/SDL_render_metal.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/render/metal/SDL_shaders_metal.metal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/render/metal/SDL_shaders_metal_ios.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/render/metal/SDL_shaders_metal_osx.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/render/metal/build-metal-shaders.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/render/opengl/SDL_glfuncs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/render/opengl/SDL_render_gl.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/render/opengl/SDL_shaders_gl.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/render/opengl/SDL_shaders_gl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/render/opengles/SDL_glesfuncs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/render/opengles/SDL_render_gles.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/render/opengles2/SDL_gles2funcs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/render/opengles2/SDL_render_gles2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/render/opengles2/SDL_shaders_gles2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/render/opengles2/SDL_shaders_gles2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/render/psp/SDL_render_psp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/render/software/SDL_blendfillrect.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/render/software/SDL_blendfillrect.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/render/software/SDL_blendline.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/render/software/SDL_blendline.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/render/software/SDL_blendpoint.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/render/software/SDL_blendpoint.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/render/software/SDL_draw.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/render/software/SDL_drawline.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/render/software/SDL_drawline.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/render/software/SDL_drawpoint.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/render/software/SDL_drawpoint.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/render/software/SDL_render_sw.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/render/software/SDL_render_sw_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/render/software/SDL_rotate.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/render/software/SDL_rotate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/sensor/SDL_sensor.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/sensor/SDL_sensor_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/sensor/SDL_syssensor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/sensor/android/SDL_androidsensor.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/sensor/android/SDL_androidsensor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/sensor/coremotion/SDL_coremotionsensor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/sensor/coremotion/SDL_coremotionsensor.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/sensor/dummy/SDL_dummysensor.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/sensor/dummy/SDL_dummysensor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/stdlib/SDL_getenv.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/stdlib/SDL_iconv.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/stdlib/SDL_malloc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/stdlib/SDL_qsort.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/stdlib/SDL_stdlib.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/stdlib/SDL_string.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/test/SDL_test_assert.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/test/SDL_test_common.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/test/SDL_test_compare.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/test/SDL_test_crc32.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/test/SDL_test_font.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/test/SDL_test_fuzzer.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/test/SDL_test_harness.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/test/SDL_test_imageBlit.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/test/SDL_test_imageBlitBlend.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/test/SDL_test_imageFace.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/test/SDL_test_imagePrimitives.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/test/SDL_test_imagePrimitivesBlend.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/test/SDL_test_log.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/test/SDL_test_md5.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/test/SDL_test_memory.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/test/SDL_test_random.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/thread/SDL_systhread.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/thread/SDL_thread.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/thread/SDL_thread_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/thread/generic/SDL_syscond.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/thread/generic/SDL_sysmutex.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/thread/generic/SDL_sysmutex_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/thread/generic/SDL_syssem.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/thread/generic/SDL_systhread.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/thread/generic/SDL_systhread_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/thread/generic/SDL_systls.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/thread/psp/SDL_syscond.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/thread/psp/SDL_sysmutex.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/thread/psp/SDL_sysmutex_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/thread/psp/SDL_syssem.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/thread/psp/SDL_systhread.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/thread/psp/SDL_systhread_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/thread/pthread/SDL_syscond.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/thread/pthread/SDL_sysmutex.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/thread/pthread/SDL_sysmutex_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/thread/pthread/SDL_syssem.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/thread/pthread/SDL_systhread.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/thread/pthread/SDL_systhread_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/thread/pthread/SDL_systls.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/thread/stdcpp/SDL_syscond.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/thread/stdcpp/SDL_sysmutex.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/thread/stdcpp/SDL_sysmutex_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/thread/stdcpp/SDL_systhread.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/thread/stdcpp/SDL_systhread_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/thread/windows/SDL_sysmutex.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/thread/windows/SDL_syssem.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/thread/windows/SDL_systhread.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/thread/windows/SDL_systhread_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/thread/windows/SDL_systls.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/timer/SDL_timer.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/timer/SDL_timer_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/timer/dummy/SDL_systimer.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/timer/haiku/SDL_systimer.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/timer/psp/SDL_systimer.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/timer/unix/SDL_systimer.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/timer/windows/SDL_systimer.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/SDL_RLEaccel.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/SDL_RLEaccel_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/SDL_blit.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/SDL_blit.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/SDL_blit_0.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/SDL_blit_1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/SDL_blit_A.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/SDL_blit_N.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/SDL_blit_auto.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/SDL_blit_auto.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/SDL_blit_copy.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/SDL_blit_copy.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/SDL_blit_slow.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/SDL_blit_slow.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/SDL_bmp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/SDL_clipboard.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/SDL_egl.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/SDL_egl_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/SDL_fillrect.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/SDL_pixels.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/SDL_pixels_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/SDL_rect.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/SDL_rect_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/SDL_shape.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/SDL_shape_internals.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/SDL_stretch.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/SDL_surface.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/SDL_sysvideo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/SDL_video.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/SDL_vulkan_internal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/SDL_vulkan_utils.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/SDL_yuv.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/SDL_yuv_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/android/SDL_androidclipboard.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/android/SDL_androidclipboard.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/android/SDL_androidevents.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/android/SDL_androidevents.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/android/SDL_androidgl.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/android/SDL_androidgl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/android/SDL_androidkeyboard.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/android/SDL_androidkeyboard.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/android/SDL_androidmessagebox.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/android/SDL_androidmessagebox.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/android/SDL_androidmouse.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/android/SDL_androidmouse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/android/SDL_androidtouch.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/android/SDL_androidtouch.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/android/SDL_androidvideo.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/android/SDL_androidvideo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/android/SDL_androidvulkan.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/android/SDL_androidvulkan.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/android/SDL_androidwindow.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/android/SDL_androidwindow.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/cocoa/SDL_cocoaclipboard.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/cocoa/SDL_cocoaclipboard.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/cocoa/SDL_cocoaevents.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/cocoa/SDL_cocoaevents.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/cocoa/SDL_cocoakeyboard.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/cocoa/SDL_cocoakeyboard.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/cocoa/SDL_cocoamessagebox.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/cocoa/SDL_cocoamessagebox.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/cocoa/SDL_cocoametalview.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/cocoa/SDL_cocoametalview.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/cocoa/SDL_cocoamodes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/cocoa/SDL_cocoamodes.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/cocoa/SDL_cocoamouse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/cocoa/SDL_cocoamouse.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/cocoa/SDL_cocoamousetap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/cocoa/SDL_cocoamousetap.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/cocoa/SDL_cocoaopengl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/cocoa/SDL_cocoaopengl.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/cocoa/SDL_cocoaopengles.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/cocoa/SDL_cocoaopengles.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/cocoa/SDL_cocoashape.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/cocoa/SDL_cocoashape.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/cocoa/SDL_cocoavideo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/cocoa/SDL_cocoavideo.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/cocoa/SDL_cocoavulkan.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/cocoa/SDL_cocoavulkan.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/cocoa/SDL_cocoawindow.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/cocoa/SDL_cocoawindow.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/directfb/SDL_DirectFB_WM.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/directfb/SDL_DirectFB_WM.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/directfb/SDL_DirectFB_dyn.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/directfb/SDL_DirectFB_dyn.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/directfb/SDL_DirectFB_events.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/directfb/SDL_DirectFB_events.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/directfb/SDL_DirectFB_modes.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/directfb/SDL_DirectFB_modes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/directfb/SDL_DirectFB_mouse.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/directfb/SDL_DirectFB_mouse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/directfb/SDL_DirectFB_opengl.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/directfb/SDL_DirectFB_opengl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/directfb/SDL_DirectFB_render.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/directfb/SDL_DirectFB_render.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/directfb/SDL_DirectFB_shape.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/directfb/SDL_DirectFB_shape.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/directfb/SDL_DirectFB_video.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/directfb/SDL_DirectFB_video.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/directfb/SDL_DirectFB_window.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/directfb/SDL_DirectFB_window.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/dummy/SDL_nullevents.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/dummy/SDL_nullevents_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/dummy/SDL_nullframebuffer.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/dummy/SDL_nullframebuffer_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/dummy/SDL_nullvideo.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/dummy/SDL_nullvideo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/emscripten/SDL_emscriptenevents.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/emscripten/SDL_emscriptenevents.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/emscripten/SDL_emscriptenframebuffer.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/emscripten/SDL_emscriptenframebuffer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/emscripten/SDL_emscriptenmouse.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/emscripten/SDL_emscriptenmouse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/emscripten/SDL_emscriptenopengles.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/emscripten/SDL_emscriptenopengles.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/emscripten/SDL_emscriptenvideo.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/emscripten/SDL_emscriptenvideo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/haiku/SDL_BWin.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/haiku/SDL_bclipboard.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/haiku/SDL_bclipboard.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/haiku/SDL_bevents.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/haiku/SDL_bevents.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/haiku/SDL_bframebuffer.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/haiku/SDL_bframebuffer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/haiku/SDL_bkeyboard.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/haiku/SDL_bkeyboard.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/haiku/SDL_bmodes.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/haiku/SDL_bmodes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/haiku/SDL_bopengl.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/haiku/SDL_bopengl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/haiku/SDL_bvideo.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/haiku/SDL_bvideo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/haiku/SDL_bwindow.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/haiku/SDL_bwindow.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/khronos/EGL/egl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/khronos/EGL/eglext.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/khronos/EGL/eglplatform.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/khronos/GLES2/gl2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/khronos/GLES2/gl2ext.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/khronos/GLES2/gl2platform.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/khronos/KHR/khrplatform.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/khronos/vulkan/vk_platform.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/khronos/vulkan/vulkan.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/kmsdrm/SDL_kmsdrmdyn.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/kmsdrm/SDL_kmsdrmdyn.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/kmsdrm/SDL_kmsdrmevents.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/kmsdrm/SDL_kmsdrmevents.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/kmsdrm/SDL_kmsdrmmouse.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/kmsdrm/SDL_kmsdrmmouse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/kmsdrm/SDL_kmsdrmopengles.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/kmsdrm/SDL_kmsdrmopengles.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/kmsdrm/SDL_kmsdrmsym.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/kmsdrm/SDL_kmsdrmvideo.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/kmsdrm/SDL_kmsdrmvideo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/mir/SDL_mirdyn.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/mir/SDL_mirdyn.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/mir/SDL_mirevents.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/mir/SDL_mirevents.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/mir/SDL_mirframebuffer.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/mir/SDL_mirframebuffer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/mir/SDL_mirmouse.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/mir/SDL_mirmouse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/mir/SDL_miropengl.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/mir/SDL_miropengl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/mir/SDL_mirsym.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/mir/SDL_mirvideo.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/mir/SDL_mirvideo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/mir/SDL_mirvulkan.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/mir/SDL_mirvulkan.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/mir/SDL_mirwindow.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/mir/SDL_mirwindow.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/nacl/SDL_naclevents.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/nacl/SDL_naclevents_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/nacl/SDL_naclglue.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/nacl/SDL_naclopengles.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/nacl/SDL_naclopengles.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/nacl/SDL_naclvideo.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/nacl/SDL_naclvideo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/nacl/SDL_naclwindow.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/nacl/SDL_naclwindow.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/pandora/SDL_pandora.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/pandora/SDL_pandora.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/pandora/SDL_pandora_events.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/pandora/SDL_pandora_events.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/psp/SDL_pspevents.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/psp/SDL_pspevents_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/psp/SDL_pspgl.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/psp/SDL_pspgl_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/psp/SDL_pspmouse.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/psp/SDL_pspmouse_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/psp/SDL_pspvideo.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/psp/SDL_pspvideo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/qnx/gl.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/qnx/keyboard.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/qnx/sdl_qnx.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/qnx/video.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/raspberry/SDL_rpievents.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/raspberry/SDL_rpievents_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/raspberry/SDL_rpimouse.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/raspberry/SDL_rpimouse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/raspberry/SDL_rpiopengles.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/raspberry/SDL_rpiopengles.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/raspberry/SDL_rpivideo.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/raspberry/SDL_rpivideo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/sdlgenblit.pl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/uikit/SDL_uikitappdelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/uikit/SDL_uikitappdelegate.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/uikit/SDL_uikitclipboard.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/uikit/SDL_uikitclipboard.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/uikit/SDL_uikitevents.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/uikit/SDL_uikitevents.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/uikit/SDL_uikitmessagebox.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/uikit/SDL_uikitmessagebox.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/uikit/SDL_uikitmetalview.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/uikit/SDL_uikitmetalview.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/uikit/SDL_uikitmodes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/uikit/SDL_uikitmodes.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/uikit/SDL_uikitopengles.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/uikit/SDL_uikitopengles.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/uikit/SDL_uikitopenglview.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/uikit/SDL_uikitopenglview.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/uikit/SDL_uikitvideo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/uikit/SDL_uikitvideo.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/uikit/SDL_uikitview.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/uikit/SDL_uikitview.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/uikit/SDL_uikitviewcontroller.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/uikit/SDL_uikitviewcontroller.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/uikit/SDL_uikitvulkan.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/uikit/SDL_uikitvulkan.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/uikit/SDL_uikitwindow.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/uikit/SDL_uikitwindow.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/uikit/keyinfotable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/vivante/SDL_vivanteopengles.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/vivante/SDL_vivanteopengles.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/vivante/SDL_vivanteplatform.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/vivante/SDL_vivanteplatform.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/vivante/SDL_vivantevideo.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/vivante/SDL_vivantevideo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/wayland/SDL_waylandclipboard.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/wayland/SDL_waylandclipboard.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/wayland/SDL_waylanddatamanager.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/wayland/SDL_waylanddatamanager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/wayland/SDL_waylanddyn.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/wayland/SDL_waylanddyn.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/wayland/SDL_waylandevents.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/wayland/SDL_waylandevents_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/wayland/SDL_waylandmouse.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/wayland/SDL_waylandmouse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/wayland/SDL_waylandopengles.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/wayland/SDL_waylandopengles.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/wayland/SDL_waylandsym.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/wayland/SDL_waylandtouch.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/wayland/SDL_waylandtouch.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/wayland/SDL_waylandvideo.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/wayland/SDL_waylandvideo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/wayland/SDL_waylandvulkan.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/wayland/SDL_waylandvulkan.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/wayland/SDL_waylandwindow.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/wayland/SDL_waylandwindow.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/windows/SDL_msctf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/windows/SDL_vkeys.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/windows/SDL_windowsclipboard.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/windows/SDL_windowsclipboard.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/windows/SDL_windowsevents.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/windows/SDL_windowsevents.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/windows/SDL_windowsframebuffer.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/windows/SDL_windowsframebuffer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/windows/SDL_windowskeyboard.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/windows/SDL_windowskeyboard.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/windows/SDL_windowsmessagebox.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/windows/SDL_windowsmessagebox.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/windows/SDL_windowsmodes.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/windows/SDL_windowsmodes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/windows/SDL_windowsmouse.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/windows/SDL_windowsmouse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/windows/SDL_windowsopengl.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/windows/SDL_windowsopengl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/windows/SDL_windowsopengles.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/windows/SDL_windowsopengles.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/windows/SDL_windowsshape.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/windows/SDL_windowsshape.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/windows/SDL_windowstaskdialog.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/windows/SDL_windowsvideo.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/windows/SDL_windowsvideo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/windows/SDL_windowsvulkan.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/windows/SDL_windowsvulkan.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/windows/SDL_windowswindow.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/windows/SDL_windowswindow.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/windows/wmmsg.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/winrt/SDL_winrtevents.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/winrt/SDL_winrtevents_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/winrt/SDL_winrtgamebar.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/winrt/SDL_winrtgamebar_cpp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/winrt/SDL_winrtkeyboard.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/winrt/SDL_winrtmessagebox.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/winrt/SDL_winrtmessagebox.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/winrt/SDL_winrtmouse.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/winrt/SDL_winrtmouse_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/winrt/SDL_winrtopengles.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/winrt/SDL_winrtopengles.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/winrt/SDL_winrtpointerinput.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/winrt/SDL_winrtvideo.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/winrt/SDL_winrtvideo_cpp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/x11/SDL_x11clipboard.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/x11/SDL_x11clipboard.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/x11/SDL_x11dyn.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/x11/SDL_x11dyn.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/x11/SDL_x11events.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/x11/SDL_x11events.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/x11/SDL_x11framebuffer.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/x11/SDL_x11framebuffer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/x11/SDL_x11keyboard.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/x11/SDL_x11keyboard.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/x11/SDL_x11messagebox.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/x11/SDL_x11messagebox.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/x11/SDL_x11modes.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/x11/SDL_x11modes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/x11/SDL_x11mouse.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/x11/SDL_x11mouse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/x11/SDL_x11opengl.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/x11/SDL_x11opengl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/x11/SDL_x11opengles.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/x11/SDL_x11opengles.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/x11/SDL_x11shape.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/x11/SDL_x11shape.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/x11/SDL_x11sym.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/x11/SDL_x11touch.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/x11/SDL_x11touch.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/x11/SDL_x11video.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/x11/SDL_x11video.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/x11/SDL_x11vulkan.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/x11/SDL_x11vulkan.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/x11/SDL_x11window.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/x11/SDL_x11window.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/x11/SDL_x11xinput2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/x11/SDL_x11xinput2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/x11/edid-parse.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/x11/edid.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/x11/imKStoUCS.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/x11/imKStoUCS.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/yuv2rgb/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/yuv2rgb/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/yuv2rgb/yuv_rgb.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/yuv2rgb/yuv_rgb.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/yuv2rgb/yuv_rgb_sse_func.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/src/video/yuv2rgb/yuv_rgb_std_func.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/COPYING" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/acinclude.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/aclocal.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/autogen.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/axis.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/button.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/checkkeys.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/configure" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/configure.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/controllermap.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/controllermap.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/emscripten/joystick-pre.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/gcc-fat.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/icon.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/loopwave.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/loopwavequeue.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/moose.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/nacl/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/nacl/background.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/nacl/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/nacl/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/nacl/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/picture.xbm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/relative_mode.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/sample.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/sample.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p01_shape24.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p01_shape32alpha.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p01_shape8.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p02_shape24.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p02_shape32alpha.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p02_shape8.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p03_shape24.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p03_shape8.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p04_shape1.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p04_shape24.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p04_shape32alpha.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p04_shape8.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p05_shape8.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p06_shape1alpha.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p06_shape24.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p06_shape32alpha.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p06_shape8.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p07_shape24.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p07_shape32alpha.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p07_shape8.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p08_shape24.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p08_shape32alpha.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p08_shape8.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p09_shape24.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p09_shape32alpha.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p09_shape8.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p10_shape1.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p10_shape24.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p10_shape32alpha.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p10_shape8.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p11_shape24.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p11_shape32alpha.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p11_shape8.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p12_shape24.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p12_shape8.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p13_shape24.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p13_shape32alpha.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p13_shape8.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p14_shape24.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p14_shape8.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p15_shape24.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p15_shape32alpha.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p15_shape8.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p16_shape1.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p16_shape24.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/p16_shape8.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/trollface_24.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/shapes/trollface_32alpha.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testatomic.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testaudiocapture.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testaudiohotplug.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testaudioinfo.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testautomation.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testautomation_audio.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testautomation_clipboard.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testautomation_events.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testautomation_hints.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testautomation_keyboard.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testautomation_main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testautomation_mouse.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testautomation_pixels.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testautomation_platform.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testautomation_rect.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testautomation_render.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testautomation_rwops.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testautomation_sdltest.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testautomation_stdlib.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testautomation_suites.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testautomation_surface.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testautomation_syswm.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testautomation_timer.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testautomation_video.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testbounds.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testcustomcursor.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testdisplayinfo.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testdraw2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testdrawchessboard.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testdropfile.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testerror.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testfile.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testfilesystem.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testgamecontroller.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testgesture.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testgl2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testgles.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testgles2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testhaptic.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testhittesting.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testhotplug.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testiconv.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testime.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testintersections.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testjoystick.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testkeys.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testloadso.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testlock.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testmessage.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testmultiaudio.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testnative.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testnative.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testnativecocoa.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testnativew32.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testnativex11.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testoverlay2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testplatform.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testpower.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testqsort.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testrelative.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testrendercopyex.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testrendertarget.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testresample.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testrumble.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testscale.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testsem.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testsensor.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testshader.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testshape.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testsprite2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testspriteminimal.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/teststreaming.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testthread.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testtimer.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testver.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testviewport.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testvulkan.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testwm2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testyuv.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testyuv.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testyuv_cvt.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/testyuv_cvt.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/torturethread.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/test/utf8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/wayland-protocols/pointer-constraints-unstable-v1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/wayland-protocols/relative-pointer-unstable-v1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/wayland-protocols/wayland.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/wayland-protocols/xdg-shell-unstable-v6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/SDL2/wayland-protocols/xdg-shell.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/native-lib-audio.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/native-lib-bmg.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/native-lib-su.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/native-lib.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cry/cry/sdlcmakedemo/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/libsdl/app/HIDDevice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/libsdl/app/HIDDeviceBLESteamController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/libsdl/app/HIDDeviceManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/libsdl/app/HIDDeviceUSB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/libsdl/app/SDL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/libsdl/app/SDLActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/libsdl/app/SDLAudioManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/libsdl/app/SDLControllerManager.java" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,10 +1335,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="5.1_WVGA_API_22_480p_v7" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="88Y5T19A03005454" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -26,42 +1351,63 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/local.properties">
+        <entry file="file://$PROJECT_DIR$/app/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="280">
+              <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/cpp/log.h">
+        <entry file="file://$PROJECT_DIR$/app/src/main/cpp/native_lib.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="264">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
-                <element signature="e#114#130#0" expanded="true" />
-                <element signature="e#322#462#0" expanded="true" />
+                <element signature="e#99#115#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/cpp/native_lib.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="728">
+              <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+              <folding>
+                <element signature="e#80#111#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/libs/ffmpeg/include/libavcodec/avcodec.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="4895" column="38" selection-start-line="4895" selection-start-column="19" selection-end-line="4895" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ffsdl/kmedia/KMediaPlayer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/cpp/native-lib.cpp">
+        <entry file="file://$PROJECT_DIR$/app/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-              <folding>
-                <element signature="e#48#79#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="22">
+              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -69,42 +1415,50 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            <state relative-caret-position="188">
+              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/cpp/native-lib-audio.cpp">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider editor-type-id="android-manifest" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+            <state relative-caret-position="66">
+              <caret line="3" column="29" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml">
+          <provider editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/cpp/native-lib-bmg.cpp">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ffsdl/kmedia/HomeActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-231">
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="66">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>avcodec_send_packet</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -113,51 +1467,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/local.properties" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ffsdl/kmedia/KMediaPlayer.java" />
+        <option value="$PROJECT_DIR$/app/src/main/cpp/native_lib.h" />
+        <option value="$PROJECT_DIR$/app/src/main/cpp/native_lib.cpp" />
+        <option value="$PROJECT_DIR$/app/.gitignore" />
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_common_1_1_1_jar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_common_1_1_1_jar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_1_1_1_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_1_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_1_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_1_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_28_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_28_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_asynclayoutinflater_28_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_collections_28_0_0_jar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_coordinatorlayout_28_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cursoradapter_28_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_customview_28_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_documentfile_28_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_drawerlayout_28_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_interpolator_28_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_loader_28_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_localbroadcastmanager_28_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_print_28_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_slidingpanelayout_28_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_28_0_0_jar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_28_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_28_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_28_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_28_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_28_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_swiperefreshlayout_28_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_versionedparcelable_28_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_viewpager_28_0_0_aar.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="947" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -187,6 +1509,13 @@
               <item name="Kffsdl" type="b2602c69:ProjectViewProjectNode" />
               <item name="Kffsdl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+              <item name="ffmpeg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kffsdl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kffsdl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -204,6 +1533,44 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="cpp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Kffsdl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kffsdl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kffsdl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kffsdl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kffsdl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kffsdl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ffsdl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kffsdl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kffsdl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ffsdl" type="462c0819:PsiDirectoryNode" />
+              <item name="kmedia" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -214,10 +1581,16 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.packageName">
+      <recent name="com.ffsdl.kmedia" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -352,36 +1725,107 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="947" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Capture Tool" />
-      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.32967034" />
-      <window_info id="Structure" side_tool="true" />
-      <window_info id="Build Variants" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="Resources Explorer" />
-      <window_info id="Favorites" side_tool="true" />
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Logcat" />
-      <window_info anchor="bottom" id="TODO" />
-      <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32982457" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Build" visible="true" weight="0.32982457" />
-      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Fabric" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Designer" order="1" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.4971537" visible="true" weight="0.38626608" />
+      <window_info id="Structure" order="3" side_tool="true" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Resources Explorer" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Run" />
+      <window_info anchor="bottom" id="Debug" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.7656051" />
+      <window_info anchor="bottom" id="TODO" order="1" />
+      <window_info anchor="bottom" id="Android Profiler" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="3" visible="true" weight="0.32866243" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="5" weight="0.32866243" />
+      <window_info anchor="bottom" id="Logcat" order="6" weight="0.3299363" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Fabric" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/cry/cry/sdlcmakedemo/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="43" column="66" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/libsdl/app/SDLActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="37" column="24" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/native-lib-audio.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1584">
+          <caret line="72" column="20" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/libs/SDL2/src/core/android/SDL_android.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52448">
+          <caret line="2384" selection-start-line="2384" selection-end-line="2384" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/libs/SDL2/src/dynapi/SDL_dynapi_overrides.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5302">
+          <caret line="241" column="25" selection-start-line="241" selection-start-column="25" selection-end-line="241" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/libs/SDL2/include/SDL_stdinc.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3608">
+          <caret line="164" column="2" selection-start-line="164" selection-start-column="2" selection-end-line="164" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/native-lib-bmg.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/native-lib.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding>
+            <element signature="e#48#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/log.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding>
+            <element signature="e#114#130#0" expanded="true" />
+            <element signature="e#322#462#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/local.properties">
       <provider selected="true" editor-type-id="text-editor">
@@ -390,54 +1834,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/log.h">
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#114#130#0" expanded="true" />
-            <element signature="e#322#462#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="66">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="29" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeOutput.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10177" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        <state relative-caret-position="188">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/native-lib-audio.cpp">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ffsdl/kmedia/HomeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/native-lib-bmg.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-231">
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="66">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        <state relative-caret-position="280">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/native-lib.cpp">
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/native_lib.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        <state relative-caret-position="264">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
-            <element signature="e#48#79#0" expanded="true" />
+            <element signature="e#99#115#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/libs/ffmpeg/include/libavcodec/avcodec.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="4895" column="38" selection-start-line="4895" selection-start-column="19" selection-end-line="4895" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/native_lib.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+          <folding>
+            <element signature="e#80#111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ffsdl/kmedia/KMediaPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
         </state>
       </provider>
     </entry>
