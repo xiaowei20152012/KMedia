@@ -7,25 +7,40 @@ cmake_minimum_required(VERSION 3.4.1)
 # 添加FFMpeg
 #native-lib
 set(FFMPEG_INCLUDE ${CMAKE_SOURCE_DIR}/libs/ffmpeg/include)
-set(LINK_DIR ${CMAKE_SOURCE_DIR}/libs/${ANDROID_ABI})
 include_directories(${FFMPEG_INCLUDE})
 
-add_library(ffmpeg SHARED IMPORTED)
-set_target_properties(ffmpeg PROPERTIES IMPORTED_LOCATION ${LINK_DIR}/libffmpeg.so)
+#set(ANDROID_ABI armeabi-v7a)
 
-#LOCAL_PATH := $(call my-dir)
-#
-#include $(CLEAR_VARS)
-#
-#LOCAL_MODULE := main
-#
-#SDL_PATH := ../SDL
-#
-#LOCAL_C_INCLUDES := $(LOCAL_PATH)/$(SDL_PATH)/include
-#
-## Add your application source files here...
-#LOCAL_SRC_FILES := YourSourceHere.c
-#
+set(LINK_DIR ${CMAKE_SOURCE_DIR}/libs/${ANDROID_ABI})
+
+add_library(ffcodec SHARED IMPORTED)
+set_target_properties(ffcodec PROPERTIES IMPORTED_LOCATION ${LINK_DIR}/libavcodec.so)
+
+add_library(ffavfilter SHARED IMPORTED)
+set_target_properties(ffavfilter PROPERTIES IMPORTED_LOCATION ${LINK_DIR}/libavfilter.so)
+
+add_library(ffavformat SHARED IMPORTED)
+set_target_properties(ffavformat PROPERTIES IMPORTED_LOCATION ${LINK_DIR}/libavformat.so)
+
+add_library(ffavutil SHARED IMPORTED)
+set_target_properties(ffavutil PROPERTIES IMPORTED_LOCATION ${LINK_DIR}/libavutil.so)
+
+add_library(ffswscale SHARED IMPORTED)
+set_target_properties(ffswscale PROPERTIES IMPORTED_LOCATION ${LINK_DIR}/libswscale.so)
+
+
+# 添加SDL2
+set(SDL_INCLUDE ${CMAKE_SOURCE_DIR}/libs/sdl/include)
+include_directories(${SDL_INCLUDE})
+
+
+add_library(sdl2 SHARED IMPORTED)
+set_target_properties(sdl2 PROPERTIES IMPORTED_LOCATION ${LINK_DIR}/libSDL2.so)
+
+
+
+
+
 #LOCAL_SHARED_LIBRARIES := SDL2
 #
 #LOCAL_LDLIBS := -lGLESv1_CM -lGLESv2 -llog
@@ -53,10 +68,17 @@ find_library( # Sets the name of the path variable.
 
 target_link_libraries( # Specifies the target library.
         native_lib
-#        SDL2
-#        GLESv1_CM
-#        GLESv2
-        ffmpeg
+
+        ffcodec
+        ffavfilter
+        ffavformat
+        ffavutil
+        ffswscale
+
+        sdl2
+        GLESv1_CM
+        GLESv2
+#        ffmpeg
         # Links the target library to the log library
         # included in the NDK.
         ${log-lib})

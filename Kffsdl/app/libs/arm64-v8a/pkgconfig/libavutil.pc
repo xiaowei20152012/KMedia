@@ -1,0 +1,14 @@
+prefix=../armv8
+exec_prefix=${prefix}
+libdir=../armv8/lib
+includedir=../armv8/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 56.31.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil 
+Libs.private: -pthread -lm
+Cflags: -I${includedir}
