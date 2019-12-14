@@ -3,7 +3,9 @@ package com.ffsdl.kmedia;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class HomeActivity extends AppCompatActivity {
+import org.libsdl.app.SDLActivity;
+
+public class HomeActivity extends SDLActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

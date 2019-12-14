@@ -11,195 +11,802 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b0b9ab1-b997-4707-a9b1-20015c9f7f46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/libs/arm64-v8a/libSDL2.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/arm64-v8a/libavcodec.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/arm64-v8a/libavfilter.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/arm64-v8a/libavformat.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/arm64-v8a/libavutil.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/arm64-v8a/libhidapi.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/arm64-v8a/libswresample.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/arm64-v8a/libswscale.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/arm64-v8a/pkgconfig/libavcodec.pc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/arm64-v8a/pkgconfig/libavfilter.pc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/arm64-v8a/pkgconfig/libavformat.pc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/arm64-v8a/pkgconfig/libavutil.pc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/arm64-v8a/pkgconfig/libswresample.pc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/arm64-v8a/pkgconfig/libswscale.pc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/armeabi-v7a/libSDL2.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/armeabi-v7a/libavcodec.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/armeabi-v7a/libavfilter.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/armeabi-v7a/libavformat.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/armeabi-v7a/libavutil.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/armeabi-v7a/libhidapi.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/armeabi-v7a/libswresample.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/armeabi-v7a/libswscale.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/armeabi-v7a/pkgconfig/libavcodec.pc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/armeabi-v7a/pkgconfig/libavfilter.pc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/armeabi-v7a/pkgconfig/libavformat.pc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/armeabi-v7a/pkgconfig/libavutil.pc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/armeabi-v7a/pkgconfig/libswresample.pc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/armeabi-v7a/pkgconfig/libswscale.pc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavcodec/ac3_parser.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavcodec/adts_parser.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/encryption_info.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/hdr_dynamic_metadata.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/hwcontext_d3d11va.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/hwcontext_drm.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/hwcontext_videotoolbox.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/tx.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_assert.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_atomic.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_audio.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_bits.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_blendmode.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_clipboard.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_config.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_config.h.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_config.h.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_config_android.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_config_iphoneos.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_config_macosx.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_config_minimal.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_config_os2.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_config_pandora.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_config_psp.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_config_windows.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_config_winrt.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_config_wiz.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_copying.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_cpuinfo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_egl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_endian.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_error.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_events.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_filesystem.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_gamecontroller.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_gesture.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_haptic.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_hints.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_joystick.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_keyboard.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_keycode.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_loadso.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_log.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_main.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_messagebox.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_mouse.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_mutex.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_name.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_opengl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_opengl_glext.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_opengles.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_opengles2.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_opengles2_gl2.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_opengles2_gl2ext.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_opengles2_gl2platform.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_opengles2_khrplatform.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_pixels.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_platform.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_power.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_quit.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_rect.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_render.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_revision.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_rwops.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_scancode.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_sensor.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_shape.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_stdinc.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_surface.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_system.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_syswm.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_test.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_test_assert.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_test_common.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_test_compare.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_test_crc32.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_test_font.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_test_fuzzer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_test_harness.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_test_images.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_test_log.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_test_md5.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_test_memory.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_test_random.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_thread.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_timer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_touch.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_types.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_version.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_video.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/SDL_vulkan.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/begin_code.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/sdl/include/close_code.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/SDL.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/SDL_assert.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/SDL_assert_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/SDL_dataqueue.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/SDL_dataqueue.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/SDL_error.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/SDL_error_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/SDL_hints.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/SDL_internal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/SDL_log.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/atomic/SDL_atomic.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/atomic/SDL_spinlock.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/SDL_audio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/SDL_audio_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/SDL_audiocvt.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/SDL_audiodev.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/SDL_audiodev_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/SDL_audiotypecvt.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/SDL_mixer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/SDL_sysaudio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/SDL_wave.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/SDL_wave.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/alsa/SDL_alsa_audio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/alsa/SDL_alsa_audio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/android/SDL_androidaudio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/android/SDL_androidaudio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/arts/SDL_artsaudio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/arts/SDL_artsaudio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/coreaudio/SDL_coreaudio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/coreaudio/SDL_coreaudio.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/directsound/SDL_directsound.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/directsound/SDL_directsound.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/disk/SDL_diskaudio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/disk/SDL_diskaudio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/dsp/SDL_dspaudio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/dsp/SDL_dspaudio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/dummy/SDL_dummyaudio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/dummy/SDL_dummyaudio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/emscripten/SDL_emscriptenaudio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/emscripten/SDL_emscriptenaudio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/esd/SDL_esdaudio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/esd/SDL_esdaudio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/fusionsound/SDL_fsaudio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/fusionsound/SDL_fsaudio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/haiku/SDL_haikuaudio.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/haiku/SDL_haikuaudio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/jack/SDL_jackaudio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/jack/SDL_jackaudio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/nacl/SDL_naclaudio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/nacl/SDL_naclaudio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/nas/SDL_nasaudio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/nas/SDL_nasaudio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/netbsd/SDL_netbsdaudio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/netbsd/SDL_netbsdaudio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/openslES/SDL_openslES.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/openslES/SDL_openslES.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/paudio/SDL_paudio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/paudio/SDL_paudio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/psp/SDL_pspaudio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/psp/SDL_pspaudio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/pulseaudio/SDL_pulseaudio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/pulseaudio/SDL_pulseaudio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/qsa/SDL_qsa_audio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/qsa/SDL_qsa_audio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/sndio/SDL_sndioaudio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/sndio/SDL_sndioaudio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/sun/SDL_sunaudio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/sun/SDL_sunaudio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/wasapi/SDL_wasapi.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/wasapi/SDL_wasapi.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/wasapi/SDL_wasapi_win32.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/wasapi/SDL_wasapi_winrt.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/winmm/SDL_winmm.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/winmm/SDL_winmm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/core/android/SDL_android.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/core/android/SDL_android.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/core/android/keyinfotable.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/core/linux/SDL_dbus.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/core/linux/SDL_dbus.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/core/linux/SDL_evdev.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/core/linux/SDL_evdev.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/core/linux/SDL_evdev_kbd.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/core/linux/SDL_evdev_kbd.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/core/linux/SDL_evdev_kbd_default_accents.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/core/linux/SDL_evdev_kbd_default_keymap.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/core/linux/SDL_fcitx.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/core/linux/SDL_fcitx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/core/linux/SDL_ibus.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/core/linux/SDL_ibus.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/core/linux/SDL_ime.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/core/linux/SDL_ime.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/core/linux/SDL_threadprio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/core/linux/SDL_udev.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/core/linux/SDL_udev.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/core/unix/SDL_poll.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/core/unix/SDL_poll.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/core/windows/SDL_directx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/core/windows/SDL_windows.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/core/windows/SDL_windows.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/core/windows/SDL_xinput.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/core/windows/SDL_xinput.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/core/winrt/SDL_winrtapp_common.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/core/winrt/SDL_winrtapp_common.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/core/winrt/SDL_winrtapp_direct3d.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/core/winrt/SDL_winrtapp_direct3d.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/core/winrt/SDL_winrtapp_xaml.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/core/winrt/SDL_winrtapp_xaml.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/cpuinfo/SDL_cpuinfo.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/dynapi/SDL_dynapi.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/dynapi/SDL_dynapi.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/dynapi/SDL_dynapi_overrides.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/dynapi/SDL_dynapi_procs.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/dynapi/gendynapi.pl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/events/SDL_clipboardevents.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/events/SDL_clipboardevents_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/events/SDL_displayevents.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/events/SDL_displayevents_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/events/SDL_dropevents.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/events/SDL_dropevents_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/events/SDL_events.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/events/SDL_events_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/events/SDL_gesture.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/events/SDL_gesture_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/events/SDL_keyboard.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/events/SDL_keyboard_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/events/SDL_mouse.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/events/SDL_mouse_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/events/SDL_quit.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/events/SDL_sysevents.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/events/SDL_touch.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/events/SDL_touch_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/events/SDL_windowevents.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/events/SDL_windowevents_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/events/blank_cursor.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/events/default_cursor.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/events/scancodes_darwin.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/events/scancodes_linux.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/events/scancodes_windows.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/events/scancodes_xfree86.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/file/SDL_rwops.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/file/cocoa/SDL_rwopsbundlesupport.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/file/cocoa/SDL_rwopsbundlesupport.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/filesystem/android/SDL_sysfilesystem.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/filesystem/cocoa/SDL_sysfilesystem.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/filesystem/dummy/SDL_sysfilesystem.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/filesystem/emscripten/SDL_sysfilesystem.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/filesystem/haiku/SDL_sysfilesystem.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/filesystem/nacl/SDL_sysfilesystem.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/filesystem/unix/SDL_sysfilesystem.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/filesystem/windows/SDL_sysfilesystem.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/filesystem/winrt/SDL_sysfilesystem.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/haptic/SDL_haptic.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/haptic/SDL_haptic_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/haptic/SDL_syshaptic.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/haptic/android/SDL_syshaptic.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/haptic/android/SDL_syshaptic_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/haptic/darwin/SDL_syshaptic.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/haptic/darwin/SDL_syshaptic_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/haptic/dummy/SDL_syshaptic.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/haptic/linux/SDL_syshaptic.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/haptic/windows/SDL_dinputhaptic.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/haptic/windows/SDL_dinputhaptic_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/haptic/windows/SDL_windowshaptic.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/haptic/windows/SDL_windowshaptic_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/haptic/windows/SDL_xinputhaptic.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/haptic/windows/SDL_xinputhaptic_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/AUTHORS.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/HACKING.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/LICENSE-bsd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/LICENSE-gpl3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/LICENSE-orig.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/Makefile.am" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/android/hid.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/android/jni/Android.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/android/jni/Application.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/android/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/bootstrap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/configure.ac" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/doxygen/Doxyfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/hidapi/hidapi.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/hidtest/Makefile.am" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/hidtest/hidtest.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/ios/Makefile-manual" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/ios/Makefile.am" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/ios/hid.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/libusb/Makefile-manual" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/libusb/Makefile.am" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/libusb/Makefile.freebsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/libusb/Makefile.linux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/libusb/hid.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/libusb/hidusb.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/linux/Makefile-manual" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/linux/Makefile.am" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/linux/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/linux/hid.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/linux/hid.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/linux/hidraw.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/m4/ax_pthread.m4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/m4/pkg.m4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/mac/Makefile-manual" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/mac/Makefile.am" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/mac/hid.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/pc/hidapi-hidraw.pc.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/pc/hidapi-libusb.pc.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/pc/hidapi.pc.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/testgui/Makefile-manual" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/testgui/Makefile.am" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/testgui/Makefile.freebsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/testgui/Makefile.linux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/testgui/Makefile.mac" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/testgui/Makefile.mingw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/testgui/TestGUI.app.in/Contents/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/testgui/TestGUI.app.in/Contents/PkgInfo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/testgui/TestGUI.app.in/Contents/Resources/English.lproj/InfoPlist.strings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/testgui/TestGUI.app.in/Contents/Resources/Signal11.icns" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/testgui/copy_to_bundle.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/testgui/mac_support.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/testgui/mac_support.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/testgui/mac_support_cocoa.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/testgui/start.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/testgui/test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/testgui/testgui.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/testgui/testgui.vcproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/udev/99-hid.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/windows/Makefile-manual" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/windows/Makefile.am" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/windows/Makefile.mingw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/windows/ddk_build/hidapi.def" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/windows/ddk_build/makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/windows/ddk_build/sources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/windows/hid.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/windows/hidapi.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/windows/hidapi.vcproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/hidapi/windows/hidtest.vcproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/joystick/SDL_gamecontroller.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/joystick/SDL_gamecontrollerdb.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/joystick/SDL_joystick.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/joystick/SDL_joystick_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/joystick/SDL_sysjoystick.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/joystick/android/SDL_sysjoystick.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/joystick/android/SDL_sysjoystick_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/joystick/bsd/SDL_sysjoystick.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/joystick/controller_type.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/joystick/darwin/SDL_sysjoystick.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/joystick/darwin/SDL_sysjoystick_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/joystick/dummy/SDL_sysjoystick.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/joystick/emscripten/SDL_sysjoystick.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/joystick/emscripten/SDL_sysjoystick_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/joystick/haiku/SDL_haikujoystick.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/joystick/hidapi/SDL_hidapi_ps4.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/joystick/hidapi/SDL_hidapi_switch.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/joystick/hidapi/SDL_hidapi_xbox360.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/joystick/hidapi/SDL_hidapi_xboxone.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/joystick/hidapi/SDL_hidapijoystick.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/joystick/hidapi/SDL_hidapijoystick_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/joystick/iphoneos/SDL_sysjoystick.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/joystick/iphoneos/SDL_sysjoystick_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/joystick/linux/SDL_sysjoystick.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/joystick/linux/SDL_sysjoystick_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/joystick/psp/SDL_sysjoystick.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/joystick/sort_controllers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/joystick/steam/SDL_steamcontroller.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/joystick/steam/SDL_steamcontroller.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/joystick/windows/SDL_dinputjoystick.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/joystick/windows/SDL_dinputjoystick_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/joystick/windows/SDL_mmjoystick.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/joystick/windows/SDL_windowsjoystick.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/joystick/windows/SDL_windowsjoystick_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/joystick/windows/SDL_xinputjoystick.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/joystick/windows/SDL_xinputjoystick_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/libm/e_atan2.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/libm/e_exp.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/libm/e_fmod.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/libm/e_log.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/libm/e_log10.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/libm/e_pow.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/libm/e_rem_pio2.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/libm/e_sqrt.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/libm/k_cos.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/libm/k_rem_pio2.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/libm/k_sin.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/libm/k_tan.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/libm/math_libm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/libm/math_private.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/libm/s_atan.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/libm/s_copysign.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/libm/s_cos.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/libm/s_fabs.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/libm/s_floor.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/libm/s_scalbn.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/libm/s_sin.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/libm/s_tan.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/loadso/dlopen/SDL_sysloadso.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/loadso/dummy/SDL_sysloadso.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/loadso/windows/SDL_sysloadso.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/main/android/SDL_android_main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/main/dummy/SDL_dummy_main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/main/haiku/SDL_BApp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/main/haiku/SDL_BeApp.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/main/haiku/SDL_BeApp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/main/nacl/SDL_nacl_main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/main/psp/SDL_psp_main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/main/uikit/SDL_uikit_main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/main/windows/SDL_windows_main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/main/windows/version.rc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/main/winrt/SDL2-WinRTResource_BlankCursor.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/main/winrt/SDL2-WinRTResources.rc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/main/winrt/SDL_winrt_main_NonXAML.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/power/SDL_power.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/power/SDL_syspower.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/power/android/SDL_syspower.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/power/emscripten/SDL_syspower.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/power/haiku/SDL_syspower.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/power/linux/SDL_syspower.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/power/macosx/SDL_syspower.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/power/psp/SDL_syspower.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/power/uikit/SDL_syspower.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/power/uikit/SDL_syspower.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/power/windows/SDL_syspower.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/power/winrt/SDL_syspower.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/render/SDL_d3dmath.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/render/SDL_d3dmath.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/render/SDL_render.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/render/SDL_sysrender.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/render/SDL_yuv_sw.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/render/SDL_yuv_sw_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/render/direct3d/SDL_render_d3d.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/render/direct3d/SDL_shaders_d3d.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/render/direct3d/SDL_shaders_d3d.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/render/direct3d11/SDL_render_d3d11.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/render/direct3d11/SDL_render_winrt.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/render/direct3d11/SDL_render_winrt.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/render/direct3d11/SDL_shaders_d3d11.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/render/direct3d11/SDL_shaders_d3d11.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/render/metal/SDL_render_metal.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/render/metal/SDL_shaders_metal.metal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/render/metal/SDL_shaders_metal_ios.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/render/metal/SDL_shaders_metal_osx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/render/metal/build-metal-shaders.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/render/opengl/SDL_glfuncs.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/render/opengl/SDL_render_gl.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/render/opengl/SDL_shaders_gl.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/render/opengl/SDL_shaders_gl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/render/opengles/SDL_glesfuncs.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/render/opengles/SDL_render_gles.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/render/opengles2/SDL_gles2funcs.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/render/opengles2/SDL_render_gles2.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/render/opengles2/SDL_shaders_gles2.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/render/opengles2/SDL_shaders_gles2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/render/psp/SDL_render_psp.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/render/software/SDL_blendfillrect.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/render/software/SDL_blendfillrect.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/render/software/SDL_blendline.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/render/software/SDL_blendline.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/render/software/SDL_blendpoint.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/render/software/SDL_blendpoint.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/render/software/SDL_draw.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/render/software/SDL_drawline.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/render/software/SDL_drawline.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/render/software/SDL_drawpoint.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/render/software/SDL_drawpoint.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/render/software/SDL_render_sw.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/render/software/SDL_render_sw_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/render/software/SDL_rotate.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/render/software/SDL_rotate.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/sensor/SDL_sensor.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/sensor/SDL_sensor_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/sensor/SDL_syssensor.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/sensor/android/SDL_androidsensor.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/sensor/android/SDL_androidsensor.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/sensor/coremotion/SDL_coremotionsensor.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/sensor/coremotion/SDL_coremotionsensor.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/sensor/dummy/SDL_dummysensor.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/sensor/dummy/SDL_dummysensor.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/stdlib/SDL_getenv.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/stdlib/SDL_iconv.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/stdlib/SDL_malloc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/stdlib/SDL_qsort.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/stdlib/SDL_stdlib.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/stdlib/SDL_string.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/test/SDL_test_assert.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/test/SDL_test_common.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/test/SDL_test_compare.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/test/SDL_test_crc32.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/test/SDL_test_font.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/test/SDL_test_fuzzer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/test/SDL_test_harness.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/test/SDL_test_imageBlit.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/test/SDL_test_imageBlitBlend.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/test/SDL_test_imageFace.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/test/SDL_test_imagePrimitives.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/test/SDL_test_imagePrimitivesBlend.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/test/SDL_test_log.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/test/SDL_test_md5.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/test/SDL_test_memory.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/test/SDL_test_random.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/thread/SDL_systhread.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/thread/SDL_thread.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/thread/SDL_thread_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/thread/generic/SDL_syscond.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/thread/generic/SDL_sysmutex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/thread/generic/SDL_sysmutex_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/thread/generic/SDL_syssem.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/thread/generic/SDL_systhread.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/thread/generic/SDL_systhread_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/thread/generic/SDL_systls.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/thread/psp/SDL_syscond.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/thread/psp/SDL_sysmutex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/thread/psp/SDL_sysmutex_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/thread/psp/SDL_syssem.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/thread/psp/SDL_systhread.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/thread/psp/SDL_systhread_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/thread/pthread/SDL_syscond.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/thread/pthread/SDL_sysmutex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/thread/pthread/SDL_sysmutex_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/thread/pthread/SDL_syssem.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/thread/pthread/SDL_systhread.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/thread/pthread/SDL_systhread_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/thread/pthread/SDL_systls.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/thread/stdcpp/SDL_syscond.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/thread/stdcpp/SDL_sysmutex.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/thread/stdcpp/SDL_sysmutex_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/thread/stdcpp/SDL_systhread.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/thread/stdcpp/SDL_systhread_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/thread/windows/SDL_sysmutex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/thread/windows/SDL_syssem.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/thread/windows/SDL_systhread.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/thread/windows/SDL_systhread_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/thread/windows/SDL_systls.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/timer/SDL_timer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/timer/SDL_timer_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/timer/dummy/SDL_systimer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/timer/haiku/SDL_systimer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/timer/psp/SDL_systimer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/timer/unix/SDL_systimer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/timer/windows/SDL_systimer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/SDL_RLEaccel.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/SDL_RLEaccel_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/SDL_blit.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/SDL_blit.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/SDL_blit_0.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/SDL_blit_1.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/SDL_blit_A.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/SDL_blit_N.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/SDL_blit_auto.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/SDL_blit_auto.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/SDL_blit_copy.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/SDL_blit_copy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/SDL_blit_slow.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/SDL_blit_slow.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/SDL_bmp.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/SDL_clipboard.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/SDL_egl.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/SDL_egl_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/SDL_fillrect.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/SDL_pixels.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/SDL_pixels_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/SDL_rect.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/SDL_rect_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/SDL_shape.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/SDL_shape_internals.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/SDL_stretch.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/SDL_surface.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/SDL_sysvideo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/SDL_video.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/SDL_vulkan_internal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/SDL_vulkan_utils.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/SDL_yuv.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/SDL_yuv_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/android/SDL_androidclipboard.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/android/SDL_androidclipboard.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/android/SDL_androidevents.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/android/SDL_androidevents.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/android/SDL_androidgl.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/android/SDL_androidgl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/android/SDL_androidkeyboard.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/android/SDL_androidkeyboard.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/android/SDL_androidmessagebox.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/android/SDL_androidmessagebox.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/android/SDL_androidmouse.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/android/SDL_androidmouse.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/android/SDL_androidtouch.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/android/SDL_androidtouch.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/android/SDL_androidvideo.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/android/SDL_androidvideo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/android/SDL_androidvulkan.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/android/SDL_androidvulkan.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/android/SDL_androidwindow.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/android/SDL_androidwindow.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/cocoa/SDL_cocoaclipboard.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/cocoa/SDL_cocoaclipboard.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/cocoa/SDL_cocoaevents.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/cocoa/SDL_cocoaevents.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/cocoa/SDL_cocoakeyboard.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/cocoa/SDL_cocoakeyboard.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/cocoa/SDL_cocoamessagebox.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/cocoa/SDL_cocoamessagebox.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/cocoa/SDL_cocoametalview.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/cocoa/SDL_cocoametalview.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/cocoa/SDL_cocoamodes.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/cocoa/SDL_cocoamodes.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/cocoa/SDL_cocoamouse.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/cocoa/SDL_cocoamouse.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/cocoa/SDL_cocoamousetap.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/cocoa/SDL_cocoamousetap.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/cocoa/SDL_cocoaopengl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/cocoa/SDL_cocoaopengl.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/cocoa/SDL_cocoaopengles.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/cocoa/SDL_cocoaopengles.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/cocoa/SDL_cocoashape.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/cocoa/SDL_cocoashape.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/cocoa/SDL_cocoavideo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/cocoa/SDL_cocoavideo.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/cocoa/SDL_cocoavulkan.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/cocoa/SDL_cocoavulkan.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/cocoa/SDL_cocoawindow.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/cocoa/SDL_cocoawindow.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/directfb/SDL_DirectFB_WM.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/directfb/SDL_DirectFB_WM.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/directfb/SDL_DirectFB_dyn.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/directfb/SDL_DirectFB_dyn.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/directfb/SDL_DirectFB_events.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/directfb/SDL_DirectFB_events.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/directfb/SDL_DirectFB_modes.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/directfb/SDL_DirectFB_modes.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/directfb/SDL_DirectFB_mouse.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/directfb/SDL_DirectFB_mouse.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/directfb/SDL_DirectFB_opengl.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/directfb/SDL_DirectFB_opengl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/directfb/SDL_DirectFB_render.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/directfb/SDL_DirectFB_render.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/directfb/SDL_DirectFB_shape.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/directfb/SDL_DirectFB_shape.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/directfb/SDL_DirectFB_video.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/directfb/SDL_DirectFB_video.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/directfb/SDL_DirectFB_window.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/directfb/SDL_DirectFB_window.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/dummy/SDL_nullevents.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/dummy/SDL_nullevents_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/dummy/SDL_nullframebuffer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/dummy/SDL_nullframebuffer_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/dummy/SDL_nullvideo.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/dummy/SDL_nullvideo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/emscripten/SDL_emscriptenevents.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/emscripten/SDL_emscriptenevents.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/emscripten/SDL_emscriptenframebuffer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/emscripten/SDL_emscriptenframebuffer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/emscripten/SDL_emscriptenmouse.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/emscripten/SDL_emscriptenmouse.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/emscripten/SDL_emscriptenopengles.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/emscripten/SDL_emscriptenopengles.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/emscripten/SDL_emscriptenvideo.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/emscripten/SDL_emscriptenvideo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/haiku/SDL_BWin.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/haiku/SDL_bclipboard.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/haiku/SDL_bclipboard.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/haiku/SDL_bevents.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/haiku/SDL_bevents.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/haiku/SDL_bframebuffer.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/haiku/SDL_bframebuffer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/haiku/SDL_bkeyboard.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/haiku/SDL_bkeyboard.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/haiku/SDL_bmodes.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/haiku/SDL_bmodes.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/haiku/SDL_bopengl.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/haiku/SDL_bopengl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/haiku/SDL_bvideo.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/haiku/SDL_bvideo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/haiku/SDL_bwindow.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/haiku/SDL_bwindow.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/khronos/EGL/egl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/khronos/EGL/eglext.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/khronos/EGL/eglplatform.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/khronos/GLES2/gl2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/khronos/GLES2/gl2ext.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/khronos/GLES2/gl2platform.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/khronos/KHR/khrplatform.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/khronos/vulkan/vk_icd.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/khronos/vulkan/vk_layer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/khronos/vulkan/vk_platform.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/khronos/vulkan/vk_sdk_platform.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/khronos/vulkan/vulkan.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/khronos/vulkan/vulkan.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/khronos/vulkan/vulkan_android.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/khronos/vulkan/vulkan_core.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/khronos/vulkan/vulkan_fuchsia.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/khronos/vulkan/vulkan_ios.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/khronos/vulkan/vulkan_macos.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/khronos/vulkan/vulkan_mir.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/khronos/vulkan/vulkan_vi.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/khronos/vulkan/vulkan_wayland.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/khronos/vulkan/vulkan_win32.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/khronos/vulkan/vulkan_xcb.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/khronos/vulkan/vulkan_xlib.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/khronos/vulkan/vulkan_xlib_xrandr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/kmsdrm/SDL_kmsdrmdyn.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/kmsdrm/SDL_kmsdrmdyn.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/kmsdrm/SDL_kmsdrmevents.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/kmsdrm/SDL_kmsdrmevents.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/kmsdrm/SDL_kmsdrmmouse.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/kmsdrm/SDL_kmsdrmmouse.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/kmsdrm/SDL_kmsdrmopengles.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/kmsdrm/SDL_kmsdrmopengles.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/kmsdrm/SDL_kmsdrmsym.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/kmsdrm/SDL_kmsdrmvideo.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/kmsdrm/SDL_kmsdrmvideo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/nacl/SDL_naclevents.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/nacl/SDL_naclevents_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/nacl/SDL_naclglue.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/nacl/SDL_naclopengles.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/nacl/SDL_naclopengles.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/nacl/SDL_naclvideo.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/nacl/SDL_naclvideo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/nacl/SDL_naclwindow.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/nacl/SDL_naclwindow.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/pandora/SDL_pandora.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/pandora/SDL_pandora.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/pandora/SDL_pandora_events.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/pandora/SDL_pandora_events.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/psp/SDL_pspevents.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/psp/SDL_pspevents_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/psp/SDL_pspgl.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/psp/SDL_pspgl_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/psp/SDL_pspmouse.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/psp/SDL_pspmouse_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/psp/SDL_pspvideo.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/psp/SDL_pspvideo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/qnx/gl.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/qnx/keyboard.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/qnx/sdl_qnx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/qnx/video.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/raspberry/SDL_rpievents.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/raspberry/SDL_rpievents_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/raspberry/SDL_rpimouse.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/raspberry/SDL_rpimouse.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/raspberry/SDL_rpiopengles.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/raspberry/SDL_rpiopengles.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/raspberry/SDL_rpivideo.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/raspberry/SDL_rpivideo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/sdlgenblit.pl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/uikit/SDL_uikitappdelegate.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/uikit/SDL_uikitappdelegate.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/uikit/SDL_uikitclipboard.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/uikit/SDL_uikitclipboard.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/uikit/SDL_uikitevents.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/uikit/SDL_uikitevents.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/uikit/SDL_uikitmessagebox.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/uikit/SDL_uikitmessagebox.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/uikit/SDL_uikitmetalview.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/uikit/SDL_uikitmetalview.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/uikit/SDL_uikitmodes.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/uikit/SDL_uikitmodes.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/uikit/SDL_uikitopengles.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/uikit/SDL_uikitopengles.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/uikit/SDL_uikitopenglview.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/uikit/SDL_uikitopenglview.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/uikit/SDL_uikitvideo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/uikit/SDL_uikitvideo.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/uikit/SDL_uikitview.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/uikit/SDL_uikitview.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/uikit/SDL_uikitviewcontroller.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/uikit/SDL_uikitviewcontroller.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/uikit/SDL_uikitvulkan.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/uikit/SDL_uikitvulkan.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/uikit/SDL_uikitwindow.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/uikit/SDL_uikitwindow.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/uikit/keyinfotable.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/vivante/SDL_vivanteopengles.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/vivante/SDL_vivanteopengles.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/vivante/SDL_vivanteplatform.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/vivante/SDL_vivanteplatform.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/vivante/SDL_vivantevideo.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/vivante/SDL_vivantevideo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/vivante/SDL_vivantevulkan.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/vivante/SDL_vivantevulkan.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/wayland/SDL_waylandclipboard.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/wayland/SDL_waylandclipboard.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/wayland/SDL_waylanddatamanager.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/wayland/SDL_waylanddatamanager.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/wayland/SDL_waylanddyn.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/wayland/SDL_waylanddyn.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/wayland/SDL_waylandevents.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/wayland/SDL_waylandevents_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/wayland/SDL_waylandmouse.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/wayland/SDL_waylandmouse.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/wayland/SDL_waylandopengles.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/wayland/SDL_waylandopengles.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/wayland/SDL_waylandsym.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/wayland/SDL_waylandtouch.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/wayland/SDL_waylandtouch.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/wayland/SDL_waylandvideo.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/wayland/SDL_waylandvideo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/wayland/SDL_waylandvulkan.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/wayland/SDL_waylandvulkan.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/wayland/SDL_waylandwindow.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/wayland/SDL_waylandwindow.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/windows/SDL_msctf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/windows/SDL_vkeys.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/windows/SDL_windowsclipboard.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/windows/SDL_windowsclipboard.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/windows/SDL_windowsevents.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/windows/SDL_windowsevents.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/windows/SDL_windowsframebuffer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/windows/SDL_windowsframebuffer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/windows/SDL_windowskeyboard.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/windows/SDL_windowskeyboard.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/windows/SDL_windowsmessagebox.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/windows/SDL_windowsmessagebox.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/windows/SDL_windowsmodes.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/windows/SDL_windowsmodes.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/windows/SDL_windowsmouse.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/windows/SDL_windowsmouse.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/windows/SDL_windowsopengl.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/windows/SDL_windowsopengl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/windows/SDL_windowsopengles.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/windows/SDL_windowsopengles.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/windows/SDL_windowsshape.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/windows/SDL_windowsshape.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/windows/SDL_windowstaskdialog.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/windows/SDL_windowsvideo.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/windows/SDL_windowsvideo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/windows/SDL_windowsvulkan.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/windows/SDL_windowsvulkan.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/windows/SDL_windowswindow.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/windows/SDL_windowswindow.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/windows/wmmsg.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/winrt/SDL_winrtevents.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/winrt/SDL_winrtevents_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/winrt/SDL_winrtgamebar.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/winrt/SDL_winrtgamebar_cpp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/winrt/SDL_winrtkeyboard.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/winrt/SDL_winrtmessagebox.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/winrt/SDL_winrtmessagebox.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/winrt/SDL_winrtmouse.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/winrt/SDL_winrtmouse_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/winrt/SDL_winrtopengles.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/winrt/SDL_winrtopengles.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/winrt/SDL_winrtpointerinput.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/winrt/SDL_winrtvideo.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/winrt/SDL_winrtvideo_cpp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/x11/SDL_x11clipboard.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/x11/SDL_x11clipboard.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/x11/SDL_x11dyn.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/x11/SDL_x11dyn.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/x11/SDL_x11events.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/x11/SDL_x11events.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/x11/SDL_x11framebuffer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/x11/SDL_x11framebuffer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/x11/SDL_x11keyboard.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/x11/SDL_x11keyboard.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/x11/SDL_x11messagebox.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/x11/SDL_x11messagebox.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/x11/SDL_x11modes.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/x11/SDL_x11modes.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/x11/SDL_x11mouse.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/x11/SDL_x11mouse.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/x11/SDL_x11opengl.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/x11/SDL_x11opengl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/x11/SDL_x11opengles.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/x11/SDL_x11opengles.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/x11/SDL_x11shape.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/x11/SDL_x11shape.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/x11/SDL_x11sym.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/x11/SDL_x11touch.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/x11/SDL_x11touch.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/x11/SDL_x11video.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/x11/SDL_x11video.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/x11/SDL_x11vulkan.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/x11/SDL_x11vulkan.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/x11/SDL_x11window.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/x11/SDL_x11window.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/x11/SDL_x11xinput2.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/x11/SDL_x11xinput2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/x11/edid-parse.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/x11/edid.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/x11/imKStoUCS.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/x11/imKStoUCS.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/yuv2rgb/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/yuv2rgb/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/yuv2rgb/yuv_rgb.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/yuv2rgb/yuv_rgb.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/yuv2rgb/yuv_rgb_sse_func.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/sdl2/video/yuv2rgb/yuv_rgb_std_func.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/org/libsdl/app/HIDDevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/org/libsdl/app/HIDDeviceBLESteamController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/org/libsdl/app/HIDDeviceManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/org/libsdl/app/HIDDeviceUSB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/org/libsdl/app/SDL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/org/libsdl/app/SDLActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/org/libsdl/app/SDLAudioManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/org/libsdl/app/SDLControllerManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/org/libsdl/testgles/testglesActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/armeabi-v7a/libffmpeg.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/cmdutils.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/cmdutils_common_opts.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavcodec/avcodec.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavcodec/avcodec.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavcodec/mediacodec.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavcodec/mediacodec.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavcodec/vaapi.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavcodec/vaapi.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavcodec/vda.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavcodec/vdpau.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavcodec/vdpau.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavcodec/version.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavcodec/version.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavdevice/avdevice.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavdevice/version.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavfilter/avfilter.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavfilter/avfilter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavfilter/avfiltergraph.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/hwcontext_mediacodec.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavfilter/buffersink.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavfilter/buffersink.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavfilter/buffersrc.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavfilter/buffersrc.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavfilter/version.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavfilter/version.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavformat/avformat.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavformat/avformat.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavformat/avio.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavformat/avio.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavformat/version.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavformat/version.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/aes_ctr.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/aes_ctr.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/attributes.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/attributes.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/avassert.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/avassert.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/avconfig.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/avconfig.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/avstring.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/avstring.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/common.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/common.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/cpu.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/cpu.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/crc.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/crc.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/display.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/display.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/ffversion.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/ffversion.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/file.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/file.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/frame.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/frame.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/hash.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/hash.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/hmac.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/hmac.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/hwcontext.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/hwcontext.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/hwcontext_cuda.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/hwcontext_cuda.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/hwcontext_dxva2.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/hwcontext_dxva2.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/hwcontext_vaapi.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/hwcontext_vaapi.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/imgutils.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/imgutils.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/intreadwrite.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/intreadwrite.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/log.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/log.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/mastering_display_metadata.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/mastering_display_metadata.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/md5.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/md5.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/mem.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/mem.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/murmur3.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/murmur3.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/opt.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/opt.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/parseutils.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/parseutils.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/pixdesc.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/pixdesc.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/pixfmt.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/pixfmt.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/ripemd.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/ripemd.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/sha.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/sha.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/sha512.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/sha512.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/stereo3d.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/stereo3d.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/threadmessage.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/threadmessage.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/timecode.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/timecode.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/version.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libavutil/version.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libpostproc/postprocess.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libpostproc/version.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libswresample/swresample.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libswresample/swresample.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libswresample/version.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libswresample/version.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/ffmpeg/include/libswscale/version.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/ffmpeg/include/libswscale/version.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/native_lib.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/cpp/native_lib.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ffsdl/kmedia/KMediaPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ffsdl/kmedia/KMediaPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ffsdl/kmedia/HomeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ffsdl/kmedia/HomeActivity.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -210,7 +817,7 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="88Y5T19A03005454" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="5.1_WVGA_API_22_480p" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -219,17 +826,73 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Kffsdl" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/cpp/sdl2/atomic/SDL_atomic.c">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/cpp/sdl2/SDL_log.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="792">
+              <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+              <folding>
+                <element signature="e#1013#1050#0" expanded="true" />
+                <element signature="e#1072#1092#0" expanded="true" />
+                <element signature="e#1155#1173#0" expanded="true" />
+                <element signature="e#1207#1231#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+            <state relative-caret-position="50">
+              <caret line="8" column="27" selection-start-line="8" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/cpp/sdl2/video/android/SDL_androidclipboard.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/cpp/sdl2/SDL_internal.h">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/cpp/native_lib.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#99#115#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -237,8 +900,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/cpp/native_lib.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-147">
-              <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+            <state relative-caret-position="264">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#80#111#0" expanded="true" />
               </folding>
@@ -247,51 +910,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ffsdl/kmedia/KMediaPlayer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="43" lean-forward="true" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/libs/sdl/include/SDL.h">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/org/libsdl/app/HIDDeviceManager.java">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml">
-          <provider editor-type-id="android-designer2" />
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/org/libsdl/app/HIDDeviceBLESteamController.java">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ffsdl/kmedia/HomeActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/org/libsdl/app/SDLControllerManager.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -306,6 +936,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>avcodec_send_packet</find>
+      <find>SDL_config.h</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -319,9 +950,13 @@
         <option value="$PROJECT_DIR$/app/.gitignore" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/cpp/native_lib.cpp" />
         <option value="$PROJECT_DIR$/app/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ffsdl/kmedia/KMediaPlayer.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/org/libsdl/app/SDLControllerManager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ffsdl/kmedia/HomeActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/android/SDL_androidaudio.h" />
+        <option value="$PROJECT_DIR$/app/src/main/cpp/native_lib.cpp" />
+        <option value="$PROJECT_DIR$/app/src/main/cpp/sdl2/SDL_log.c" />
       </list>
     </option>
   </component>
@@ -336,9 +971,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -351,6 +986,18 @@
               <item name="Kffsdl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
+            <path>
+              <item name="Kffsdl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kffsdl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kffsdl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kffsdl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -360,22 +1007,23 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/libs/sdl" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/cpp/sdl2" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/libs/ffmpeg/include" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/cpp/sdl2" />
+      <recent name="$PROJECT_DIR$/app/src/main/java" />
+      <recent name="$PROJECT_DIR$/app/libs/sdl" />
+      <recent name="$PROJECT_DIR$/app/libs/armeabi-v7a" />
+      <recent name="$PROJECT_DIR$/app/libs/arm64-v8a" />
     </key>
     <key name="android.template.packageName">
       <recent name="com.ffsdl.kmedia" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/libs/sdl" />
-      <recent name="$PROJECT_DIR$/app/libs/armeabi-v7a" />
-      <recent name="$PROJECT_DIR$/app/libs/arm64-v8a" />
-      <recent name="$PROJECT_DIR$/app/libs/ffmpeg" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/libs/ffmpeg/include" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -511,38 +1159,78 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="947" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="1" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.4971537" visible="true" weight="0.3855508" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.4971537" visible="true" weight="0.3852259" />
       <window_info id="Structure" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
       <window_info id="Image Layers" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Favorites" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="0" weight="0.7656051" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.7649123" />
       <window_info anchor="bottom" id="TODO" order="1" />
-      <window_info anchor="bottom" id="Android Profiler" order="2" weight="0.3299363" />
+      <window_info anchor="bottom" id="Android Profiler" order="2" show_stripe_button="false" weight="0.3299363" />
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.32866243" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="5" weight="0.32866243" />
+      <window_info anchor="bottom" id="Build" order="5" visible="true" weight="0.32865497" />
       <window_info anchor="bottom" id="Logcat" order="6" weight="0.3299363" />
       <window_info anchor="bottom" id="Run" order="7" />
       <window_info anchor="bottom" id="Debug" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Gradle" order="2" weight="0.32967034" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="right" id="Fabric" order="4" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
     </layout>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/cry/cry/sdlcmakedemo/MainActivity.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/libsdl/app/SDLActivity.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/cpp/native-lib-audio.cpp" />
     <entry file="file://$PROJECT_DIR$/app/libs/SDL2/src/core/android/SDL_android.c" />
     <entry file="file://$PROJECT_DIR$/app/libs/SDL2/src/dynapi/SDL_dynapi_overrides.h" />
@@ -572,16 +1260,6 @@
         <state relative-caret-position="-10177" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/native_lib.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#99#115#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/libs/ffmpeg/include/libavcodec/avcodec.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107690">
@@ -589,37 +1267,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/libs/armeabi-v7a/libavcodec/jni.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ffsdl/kmedia/HomeActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/libs/armeabi-v7a/libavcodec/jni.h" />
     <entry file="file://$PROJECT_DIR$/app/libs/sdl/include/SDL.h">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/libs/ffmpeg/include/libavcodec/jni.h">
       <provider selected="true" editor-type-id="text-editor">
@@ -638,24 +1288,127 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ffsdl/kmedia/KMediaPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="4" column="43" lean-forward="true" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/libsdl/app/SDL.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/libsdl/app/HIDDeviceUSB.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/libsdl/testgles/testglesActivity.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/libsdl/app/HIDDevice.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/libsdl/app/SDLActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15620">
+          <caret line="775" column="35" selection-start-line="775" selection-start-column="35" selection-end-line="775" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ffsdl/kmedia/HomeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/android/SDL_androidaudio.c" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/SDL_sysaudio.h" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/sdl2/audio/android/SDL_androidaudio.h" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/sdl2/test/SDL_test_imageFace.c" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/sdl2/file/SDL_rwops.c" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/sdl2/file/cocoa/SDL_rwopsbundlesupport.h" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/libsdl/app/SDLAudioManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/sdl2/atomic/SDL_atomic.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/sdl2/SDL_log.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+          <folding>
+            <element signature="e#1013#1050#0" expanded="true" />
+            <element signature="e#1072#1092#0" expanded="true" />
+            <element signature="e#1155#1173#0" expanded="true" />
+            <element signature="e#1207#1231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/sdl2/video/android/SDL_androidclipboard.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/sdl2/SDL_internal.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/native_lib.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#99#115#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/cpp/native_lib.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-147">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        <state relative-caret-position="264">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#80#111#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/libsdl/app/HIDDeviceManager.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/libsdl/app/HIDDeviceBLESteamController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/libsdl/app/SDLControllerManager.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        <state relative-caret-position="50">
+          <caret line="8" column="27" selection-start-line="8" selection-end-line="9" />
         </state>
       </provider>
     </entry>
