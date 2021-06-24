@@ -1,2 +1,4 @@
-include ':app'
+include ':AndroidCommon'
+include ':JavaCommon'
+include ':KPlayer'
 rootProject.name = "Player"

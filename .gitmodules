@@ -1,0 +1,3 @@
+[submodule "Player/ExoPlayer"]
+	path = Player/ExoPlayer
+	url = git@github.com:xiaowei20152012/ExoPlayer.git
