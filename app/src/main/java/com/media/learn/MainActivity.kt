@@ -2,23 +2,25 @@ package com.media.learn
 
 import android.os.Bundle
 import com.google.android.material.snackbar.Snackbar
-import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.WindowCompat
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import android.view.Menu
 import android.view.MenuItem
+import com.media.learn.common.BaseAppCompatActivity
 import com.media.learn.databinding.ActivityMainBinding
+import com.media.learn.util.ThemeOverlayUtils
+import com.media.learn.util.Util
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : BaseAppCompatActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        WindowCompat.setDecorFitsSystemWindows(window, false)
+        ThemeOverlayUtils.applyThemeOverlays(this)
+        Util.setDecorFitsSystemWindows(window, false)
         super.onCreate(savedInstanceState)
 
         binding = ActivityMainBinding.inflate(layoutInflater)
