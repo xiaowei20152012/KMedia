@@ -12,6 +12,8 @@ import androidx.navigation.ui.setupWithNavController
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
 import com.media.learn.databinding.ActivityNavigationDrawerBinding
+import com.media.learn.util.ThemeOverlayUtils
+import com.media.learn.util.Util
 
 class NavigationDrawerActivity : AppCompatActivity() {
 
@@ -19,6 +21,8 @@ class NavigationDrawerActivity : AppCompatActivity() {
     private lateinit var binding: ActivityNavigationDrawerBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        ThemeOverlayUtils.applyThemeOverlays(this)
+        Util.setDecorFitsSystemWindows(window, false)
         super.onCreate(savedInstanceState)
 
         binding = ActivityNavigationDrawerBinding.inflate(layoutInflater)
