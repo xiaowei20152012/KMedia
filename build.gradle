@@ -4,3 +4,22 @@ plugins {
     id 'com.android.library' version '7.4.2' apply false
     id 'org.jetbrains.kotlin.android' version '1.8.0' apply false
 }
+
+ext {
+
+    compileSdkVersion = 33
+    minSdkVersion = 24
+    targetSdkVersion = 33
+    versionCode = 1
+    versionName = '1.0'
+    coreKtxVersion = '1.7.0'
+    appcompatVersion = '1.6.1'
+    materialVersion = '1.5.0'
+    constraintlayoutVersion = '2.1.4'
+    navigationFragmentKtxVersion = '2.4.1'
+    navigationUiKtxVersion = '2.4.1'
+
+
+
+
+}
